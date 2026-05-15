@@ -1,0 +1,68 @@
+# Error injection parameters for python/synth_generator.py.
+# Drives realistic edit-check query volume in the synthetic dataset.
+# All rates are decimal fractions (0.02 = 2%).
+
+seed: 20260513
+
+error_injection:
+
+  # Required-field blanks: 2% of cells in the listed fields are set to blank.
+  # KRI-05 (Missing Data Rate) threshold is 10%; baseline of 2% keeps healthy
+  # sites NORMAL while site_bias below pushes problem sites past the threshold.
+  missing_required_fields:
+    rate: 0.02
+    fields:
+      - DM.SUBJID
+      - DM.BRTHDAT
+      - IE.IEORRES
+      - AE.AETERM
+      - AE.AESTDAT
+      - LB.LBORRES
+      - PASI.PASITOT
+
+  # 1% of subjects have an out-of-range age (17 or 80) to fire EC007.
+  age_out_of_range:
+    rate: 0.01
+
+  # 0.5% of AEs occur before the subject's treatment start (EC019).
+  ae_before_treatment:
+    rate: 0.005
+
+  # 1% of lab results are implausibly outside normal range (EC011-EC013, EC029-EC030).
+  lab_implausible:
+    rate: 0.01
+
+  # 0.5% of date or ID fields fail format validation (EC015-EC018).
+  format_invalid:
+    rate: 0.005
+
+  # 0.8% of PASI assessments have a total >72 (EC008).
+  pasi_implausible_total:
+    rate: 0.008
+
+# Site biasing: 2 of 8 sites are "problem sites" with multiple flagged KRIs.
+# Makes the dashboard demo visually interesting (red tiles for ≥1 site per KRI).
+# See docs/kri_definitions.md for the threshold logic each KRI uses.
+site_bias:
+  problem_sites:
+    - S005
+    - S007
+  # Multiplier applied to missing_required_fields.rate at problem sites.
+  # 2% baseline × 6 = 12% → above KRI-05 10% threshold.
+  missing_data_multiplier: 6.0
+  # Mean AE-entry-latency in days at problem sites (normal sites use 2.0).
+  # >5d median triggers KRI-03 HIGH flag.
+  ae_latency_mean_days: 6.0
+  # Multiplier on baseline protocol-deviation count at problem sites.
+  # Normal sites get ~2/site, problem sites get ~6/site.
+  protocol_deviation_multiplier: 3.0
+
+# Operational expectations used to bound enrollment dates and visit windows.
+operational:
+  study_start_date: "2024-09-01"   # first site activation / first subject in
+  recruitment_months: 18
+  n_subjects: 150
+  n_sites: 8
+  treatment_arms:
+    Active: 2
+    Placebo: 1                      # 2:1 randomization
