@@ -1,0 +1,110 @@
+name: pipeline
+
+# Heads-up mitigations applied (per ~/Desktop/projects/heads_up.md):
+#   - runs-on: ubuntu-22.04 pinned (NOT ubuntu-latest; PPM jammy binaries
+#     are the supported track and ubuntu-latest will eventually break)
+#   - RENV_CONFIG_INSTALL_PARALLEL=FALSE to avoid intermittent install races
+#   - R 4.6.0 pinned (matches local install + renv.lock)
+#   - cache-version label on the renv cache key so we can bump it explicitly
+#   - all package URLs verified resolvable on PPM at lockfile commit time
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 45
+
+    env:
+      RENV_PATHS_ROOT: ~/.cache/R/renv
+      RENV_CONFIG_INSTALL_PARALLEL: 'FALSE'
+      MAKEFLAGS: '-j2'
+      CACHE_VERSION: '1'
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install system build dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            libxml2-dev libcurl4-openssl-dev libssl-dev libfontconfig1-dev \
+            libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev \
+            libjpeg-dev libtiff-dev libcairo2-dev cmake
+
+      - name: Setup R 4.6.0
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: '4.6.0'
+          use-public-rspm: true
+
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: '1.6.42'
+
+      - name: Setup TinyTeX (for PDF render)
+        uses: r-lib/actions/setup-tinytex@v2
+
+      - name: Cache renv library
+        uses: actions/cache@v4
+        with:
+          path: ${{ env.RENV_PATHS_ROOT }}
+          key: ${{ runner.os }}-renv-v${{ env.CACHE_VERSION }}-${{ hashFiles('**/renv.lock') }}
+          restore-keys: ${{ runner.os }}-renv-v${{ env.CACHE_VERSION }}-
+
+      - name: Restore R packages
+        run: |
+          install.packages("renv")
+          renv::restore(prompt = FALSE)
+        shell: Rscript {0}
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Regenerate metadata
+        run: make metadata
+
+      - name: Generate synthetic data
+        run: make synth
+
+      - name: Run edit-check engine
+        run: make checks
+
+      - name: Map CDASH -> SDTM
+        run: make sdtm
+
+      - name: Compute KRIs
+        run: make kris
+
+      - name: Run tests
+        run: make test
+
+      - name: Render Quarto documents
+        run: make docs
+
+      - name: Upload data artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: data-${{ github.run_number }}
+          path: |
+            data/queries/
+            data/sdtm/
+            data/kris.rds
+            data/kris_timeseries.rds
+            crf/annotated_crf.pdf
+            docs/dmp.pdf
+          retention-days: 14
