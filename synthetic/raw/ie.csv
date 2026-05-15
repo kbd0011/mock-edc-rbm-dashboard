@@ -1,0 +1,2251 @@
+SITEID,SUBJID,IECAT,IETESTCD,IETEST,IEORRES
+S003,S003-0001,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S003,S003-0001,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S003,S003-0001,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S003,S003-0001,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S003,S003-0001,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S003,S003-0001,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S003,S003-0001,INCLUSION,INCL07,Able to provide written informed consent,Y
+S003,S003-0001,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S003,S003-0001,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S003,S003-0001,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S003,S003-0001,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S003,S003-0001,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S003,S003-0001,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S003,S003-0001,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S003,S003-0001,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S005,S005-0001,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S005,S005-0001,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S005,S005-0001,INCLUSION,INCL03,PASI >= 12 at screening and baseline,
+S005,S005-0001,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S005,S005-0001,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S005,S005-0001,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S005,S005-0001,INCLUSION,INCL07,Able to provide written informed consent,Y
+S005,S005-0001,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S005,S005-0001,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S005,S005-0001,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S005,S005-0001,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S005,S005-0001,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S005,S005-0001,EXCLUSION,EXCL06,Pregnancy or lactation,
+S005,S005-0001,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S005,S005-0001,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,
+S007,S007-0001,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S007,S007-0001,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S007,S007-0001,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S007,S007-0001,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S007,S007-0001,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S007,S007-0001,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,
+S007,S007-0001,INCLUSION,INCL07,Able to provide written informed consent,Y
+S007,S007-0001,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S007,S007-0001,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S007,S007-0001,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S007,S007-0001,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S007,S007-0001,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S007,S007-0001,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S007,S007-0001,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S007,S007-0001,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S002,S002-0001,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S002,S002-0001,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S002,S002-0001,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S002,S002-0001,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S002,S002-0001,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S002,S002-0001,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S002,S002-0001,INCLUSION,INCL07,Able to provide written informed consent,Y
+S002,S002-0001,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S002,S002-0001,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S002,S002-0001,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S002,S002-0001,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S002,S002-0001,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S002,S002-0001,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S002,S002-0001,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S002,S002-0001,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S004,S004-0001,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S004,S004-0001,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S004,S004-0001,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S004,S004-0001,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S004,S004-0001,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S004,S004-0001,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,
+S004,S004-0001,INCLUSION,INCL07,Able to provide written informed consent,Y
+S004,S004-0001,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S004,S004-0001,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S004,S004-0001,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S004,S004-0001,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S004,S004-0001,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S004,S004-0001,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S004,S004-0001,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S004,S004-0001,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S006,S006-0001,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S006,S006-0001,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S006,S006-0001,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S006,S006-0001,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S006,S006-0001,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S006,S006-0001,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,
+S006,S006-0001,INCLUSION,INCL07,Able to provide written informed consent,Y
+S006,S006-0001,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S006,S006-0001,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S006,S006-0001,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S006,S006-0001,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S006,S006-0001,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S006,S006-0001,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S006,S006-0001,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S006,S006-0001,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S003,S003-0002,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S003,S003-0002,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S003,S003-0002,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S003,S003-0002,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S003,S003-0002,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S003,S003-0002,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S003,S003-0002,INCLUSION,INCL07,Able to provide written informed consent,Y
+S003,S003-0002,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S003,S003-0002,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S003,S003-0002,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S003,S003-0002,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S003,S003-0002,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S003,S003-0002,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S003,S003-0002,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S003,S003-0002,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S002,S002-0002,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S002,S002-0002,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S002,S002-0002,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S002,S002-0002,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S002,S002-0002,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S002,S002-0002,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S002,S002-0002,INCLUSION,INCL07,Able to provide written informed consent,Y
+S002,S002-0002,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S002,S002-0002,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S002,S002-0002,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S002,S002-0002,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S002,S002-0002,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S002,S002-0002,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S002,S002-0002,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S002,S002-0002,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S008,S008-0001,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S008,S008-0001,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S008,S008-0001,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S008,S008-0001,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S008,S008-0001,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S008,S008-0001,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S008,S008-0001,INCLUSION,INCL07,Able to provide written informed consent,Y
+S008,S008-0001,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S008,S008-0001,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S008,S008-0001,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S008,S008-0001,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S008,S008-0001,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S008,S008-0001,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S008,S008-0001,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S008,S008-0001,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S005,S005-0002,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S005,S005-0002,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S005,S005-0002,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S005,S005-0002,INCLUSION,INCL04,BSA >= 10% at screening and baseline,
+S005,S005-0002,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S005,S005-0002,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S005,S005-0002,INCLUSION,INCL07,Able to provide written informed consent,
+S005,S005-0002,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S005,S005-0002,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S005,S005-0002,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S005,S005-0002,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,
+S005,S005-0002,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),
+S005,S005-0002,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S005,S005-0002,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S005,S005-0002,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,
+S008,S008-0002,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S008,S008-0002,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S008,S008-0002,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S008,S008-0002,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S008,S008-0002,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S008,S008-0002,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S008,S008-0002,INCLUSION,INCL07,Able to provide written informed consent,Y
+S008,S008-0002,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S008,S008-0002,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S008,S008-0002,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S008,S008-0002,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S008,S008-0002,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S008,S008-0002,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S008,S008-0002,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S008,S008-0002,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S008,S008-0003,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S008,S008-0003,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S008,S008-0003,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S008,S008-0003,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S008,S008-0003,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S008,S008-0003,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S008,S008-0003,INCLUSION,INCL07,Able to provide written informed consent,Y
+S008,S008-0003,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S008,S008-0003,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S008,S008-0003,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S008,S008-0003,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S008,S008-0003,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),
+S008,S008-0003,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S008,S008-0003,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S008,S008-0003,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S008,S008-0004,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S008,S008-0004,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S008,S008-0004,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S008,S008-0004,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S008,S008-0004,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S008,S008-0004,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S008,S008-0004,INCLUSION,INCL07,Able to provide written informed consent,Y
+S008,S008-0004,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S008,S008-0004,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S008,S008-0004,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S008,S008-0004,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S008,S008-0004,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S008,S008-0004,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S008,S008-0004,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S008,S008-0004,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S005,S005-0003,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S005,S005-0003,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S005,S005-0003,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S005,S005-0003,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S005,S005-0003,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S005,S005-0003,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S005,S005-0003,INCLUSION,INCL07,Able to provide written informed consent,Y
+S005,S005-0003,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S005,S005-0003,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S005,S005-0003,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S005,S005-0003,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S005,S005-0003,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S005,S005-0003,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S005,S005-0003,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S005,S005-0003,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S003,S003-0003,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S003,S003-0003,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S003,S003-0003,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S003,S003-0003,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S003,S003-0003,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S003,S003-0003,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S003,S003-0003,INCLUSION,INCL07,Able to provide written informed consent,Y
+S003,S003-0003,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S003,S003-0003,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S003,S003-0003,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S003,S003-0003,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S003,S003-0003,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S003,S003-0003,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S003,S003-0003,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S003,S003-0003,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S008,S008-0005,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S008,S008-0005,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S008,S008-0005,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S008,S008-0005,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S008,S008-0005,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S008,S008-0005,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S008,S008-0005,INCLUSION,INCL07,Able to provide written informed consent,Y
+S008,S008-0005,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S008,S008-0005,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S008,S008-0005,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S008,S008-0005,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S008,S008-0005,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S008,S008-0005,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S008,S008-0005,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S008,S008-0005,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S007,S007-0002,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S007,S007-0002,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S007,S007-0002,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S007,S007-0002,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S007,S007-0002,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S007,S007-0002,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S007,S007-0002,INCLUSION,INCL07,Able to provide written informed consent,Y
+S007,S007-0002,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S007,S007-0002,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S007,S007-0002,EXCLUSION,EXCL03,Active or chronic infection at screening,
+S007,S007-0002,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,
+S007,S007-0002,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),
+S007,S007-0002,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S007,S007-0002,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S007,S007-0002,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S004,S004-0002,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S004,S004-0002,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S004,S004-0002,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S004,S004-0002,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S004,S004-0002,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S004,S004-0002,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S004,S004-0002,INCLUSION,INCL07,Able to provide written informed consent,Y
+S004,S004-0002,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S004,S004-0002,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S004,S004-0002,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S004,S004-0002,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S004,S004-0002,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S004,S004-0002,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S004,S004-0002,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S004,S004-0002,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S007,S007-0003,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S007,S007-0003,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S007,S007-0003,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S007,S007-0003,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S007,S007-0003,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S007,S007-0003,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S007,S007-0003,INCLUSION,INCL07,Able to provide written informed consent,Y
+S007,S007-0003,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S007,S007-0003,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S007,S007-0003,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S007,S007-0003,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S007,S007-0003,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S007,S007-0003,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S007,S007-0003,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S007,S007-0003,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,
+S004,S004-0003,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S004,S004-0003,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S004,S004-0003,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S004,S004-0003,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S004,S004-0003,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S004,S004-0003,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S004,S004-0003,INCLUSION,INCL07,Able to provide written informed consent,Y
+S004,S004-0003,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S004,S004-0003,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S004,S004-0003,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S004,S004-0003,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S004,S004-0003,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S004,S004-0003,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S004,S004-0003,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S004,S004-0003,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S007,S007-0004,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S007,S007-0004,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S007,S007-0004,INCLUSION,INCL03,PASI >= 12 at screening and baseline,
+S007,S007-0004,INCLUSION,INCL04,BSA >= 10% at screening and baseline,
+S007,S007-0004,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S007,S007-0004,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S007,S007-0004,INCLUSION,INCL07,Able to provide written informed consent,Y
+S007,S007-0004,EXCLUSION,EXCL01,Prior IL-23 biologic failure,
+S007,S007-0004,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S007,S007-0004,EXCLUSION,EXCL03,Active or chronic infection at screening,
+S007,S007-0004,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S007,S007-0004,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),
+S007,S007-0004,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S007,S007-0004,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S007,S007-0004,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S001,S001-0001,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S001,S001-0001,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S001,S001-0001,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S001,S001-0001,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S001,S001-0001,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S001,S001-0001,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S001,S001-0001,INCLUSION,INCL07,Able to provide written informed consent,
+S001,S001-0001,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S001,S001-0001,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S001,S001-0001,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S001,S001-0001,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S001,S001-0001,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S001,S001-0001,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S001,S001-0001,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S001,S001-0001,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S008,S008-0006,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S008,S008-0006,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S008,S008-0006,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S008,S008-0006,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S008,S008-0006,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S008,S008-0006,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S008,S008-0006,INCLUSION,INCL07,Able to provide written informed consent,Y
+S008,S008-0006,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S008,S008-0006,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S008,S008-0006,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S008,S008-0006,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S008,S008-0006,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S008,S008-0006,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S008,S008-0006,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S008,S008-0006,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S005,S005-0004,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S005,S005-0004,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S005,S005-0004,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S005,S005-0004,INCLUSION,INCL04,BSA >= 10% at screening and baseline,
+S005,S005-0004,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S005,S005-0004,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S005,S005-0004,INCLUSION,INCL07,Able to provide written informed consent,Y
+S005,S005-0004,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S005,S005-0004,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S005,S005-0004,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S005,S005-0004,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S005,S005-0004,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S005,S005-0004,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S005,S005-0004,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S005,S005-0004,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S008,S008-0007,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S008,S008-0007,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S008,S008-0007,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S008,S008-0007,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S008,S008-0007,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S008,S008-0007,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S008,S008-0007,INCLUSION,INCL07,Able to provide written informed consent,Y
+S008,S008-0007,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S008,S008-0007,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S008,S008-0007,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S008,S008-0007,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S008,S008-0007,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S008,S008-0007,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S008,S008-0007,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S008,S008-0007,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S003,S003-0004,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S003,S003-0004,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S003,S003-0004,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S003,S003-0004,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S003,S003-0004,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S003,S003-0004,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S003,S003-0004,INCLUSION,INCL07,Able to provide written informed consent,Y
+S003,S003-0004,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S003,S003-0004,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S003,S003-0004,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S003,S003-0004,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S003,S003-0004,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S003,S003-0004,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S003,S003-0004,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S003,S003-0004,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S007,S007-0005,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S007,S007-0005,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S007,S007-0005,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S007,S007-0005,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S007,S007-0005,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S007,S007-0005,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S007,S007-0005,INCLUSION,INCL07,Able to provide written informed consent,Y
+S007,S007-0005,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S007,S007-0005,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S007,S007-0005,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S007,S007-0005,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S007,S007-0005,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S007,S007-0005,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S007,S007-0005,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S007,S007-0005,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S006,S006-0002,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S006,S006-0002,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S006,S006-0002,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S006,S006-0002,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S006,S006-0002,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S006,S006-0002,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S006,S006-0002,INCLUSION,INCL07,Able to provide written informed consent,Y
+S006,S006-0002,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S006,S006-0002,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S006,S006-0002,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S006,S006-0002,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S006,S006-0002,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S006,S006-0002,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S006,S006-0002,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S006,S006-0002,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S004,S004-0004,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S004,S004-0004,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S004,S004-0004,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S004,S004-0004,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S004,S004-0004,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S004,S004-0004,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S004,S004-0004,INCLUSION,INCL07,Able to provide written informed consent,Y
+S004,S004-0004,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S004,S004-0004,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S004,S004-0004,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S004,S004-0004,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S004,S004-0004,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S004,S004-0004,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S004,S004-0004,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S004,S004-0004,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S002,S002-0003,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S002,S002-0003,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S002,S002-0003,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S002,S002-0003,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S002,S002-0003,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S002,S002-0003,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S002,S002-0003,INCLUSION,INCL07,Able to provide written informed consent,Y
+S002,S002-0003,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S002,S002-0003,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,
+S002,S002-0003,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S002,S002-0003,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S002,S002-0003,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S002,S002-0003,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S002,S002-0003,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S002,S002-0003,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S001,S001-0002,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S001,S001-0002,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S001,S001-0002,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S001,S001-0002,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S001,S001-0002,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S001,S001-0002,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S001,S001-0002,INCLUSION,INCL07,Able to provide written informed consent,Y
+S001,S001-0002,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S001,S001-0002,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S001,S001-0002,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S001,S001-0002,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S001,S001-0002,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S001,S001-0002,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S001,S001-0002,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S001,S001-0002,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S004,S004-0005,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S004,S004-0005,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S004,S004-0005,INCLUSION,INCL03,PASI >= 12 at screening and baseline,
+S004,S004-0005,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S004,S004-0005,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S004,S004-0005,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S004,S004-0005,INCLUSION,INCL07,Able to provide written informed consent,Y
+S004,S004-0005,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S004,S004-0005,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S004,S004-0005,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S004,S004-0005,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S004,S004-0005,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S004,S004-0005,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S004,S004-0005,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S004,S004-0005,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S005,S005-0005,INCLUSION,INCL01,Age 18-75 inclusive at screening,
+S005,S005-0005,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S005,S005-0005,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S005,S005-0005,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S005,S005-0005,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S005,S005-0005,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S005,S005-0005,INCLUSION,INCL07,Able to provide written informed consent,Y
+S005,S005-0005,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S005,S005-0005,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S005,S005-0005,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S005,S005-0005,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S005,S005-0005,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S005,S005-0005,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S005,S005-0005,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S005,S005-0005,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S001,S001-0003,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S001,S001-0003,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S001,S001-0003,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S001,S001-0003,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S001,S001-0003,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S001,S001-0003,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S001,S001-0003,INCLUSION,INCL07,Able to provide written informed consent,Y
+S001,S001-0003,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S001,S001-0003,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S001,S001-0003,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S001,S001-0003,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S001,S001-0003,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S001,S001-0003,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S001,S001-0003,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S001,S001-0003,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S008,S008-0008,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S008,S008-0008,INCLUSION,INCL02,Plaque psoriasis for >=6 months,
+S008,S008-0008,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S008,S008-0008,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S008,S008-0008,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S008,S008-0008,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S008,S008-0008,INCLUSION,INCL07,Able to provide written informed consent,Y
+S008,S008-0008,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S008,S008-0008,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S008,S008-0008,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S008,S008-0008,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S008,S008-0008,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S008,S008-0008,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S008,S008-0008,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S008,S008-0008,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S007,S007-0006,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S007,S007-0006,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S007,S007-0006,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S007,S007-0006,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S007,S007-0006,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S007,S007-0006,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S007,S007-0006,INCLUSION,INCL07,Able to provide written informed consent,Y
+S007,S007-0006,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S007,S007-0006,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S007,S007-0006,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S007,S007-0006,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S007,S007-0006,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S007,S007-0006,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S007,S007-0006,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S007,S007-0006,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S003,S003-0005,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S003,S003-0005,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S003,S003-0005,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S003,S003-0005,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S003,S003-0005,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S003,S003-0005,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S003,S003-0005,INCLUSION,INCL07,Able to provide written informed consent,Y
+S003,S003-0005,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S003,S003-0005,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S003,S003-0005,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S003,S003-0005,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S003,S003-0005,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S003,S003-0005,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S003,S003-0005,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,
+S003,S003-0005,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S006,S006-0003,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S006,S006-0003,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S006,S006-0003,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S006,S006-0003,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S006,S006-0003,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S006,S006-0003,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S006,S006-0003,INCLUSION,INCL07,Able to provide written informed consent,Y
+S006,S006-0003,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S006,S006-0003,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S006,S006-0003,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S006,S006-0003,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S006,S006-0003,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S006,S006-0003,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S006,S006-0003,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S006,S006-0003,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S006,S006-0004,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S006,S006-0004,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S006,S006-0004,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S006,S006-0004,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S006,S006-0004,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S006,S006-0004,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S006,S006-0004,INCLUSION,INCL07,Able to provide written informed consent,Y
+S006,S006-0004,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S006,S006-0004,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S006,S006-0004,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S006,S006-0004,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S006,S006-0004,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S006,S006-0004,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S006,S006-0004,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S006,S006-0004,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S008,S008-0009,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S008,S008-0009,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S008,S008-0009,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S008,S008-0009,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S008,S008-0009,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S008,S008-0009,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S008,S008-0009,INCLUSION,INCL07,Able to provide written informed consent,Y
+S008,S008-0009,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S008,S008-0009,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S008,S008-0009,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S008,S008-0009,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S008,S008-0009,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S008,S008-0009,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S008,S008-0009,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S008,S008-0009,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S005,S005-0006,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S005,S005-0006,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S005,S005-0006,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S005,S005-0006,INCLUSION,INCL04,BSA >= 10% at screening and baseline,
+S005,S005-0006,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S005,S005-0006,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,
+S005,S005-0006,INCLUSION,INCL07,Able to provide written informed consent,Y
+S005,S005-0006,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S005,S005-0006,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S005,S005-0006,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S005,S005-0006,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S005,S005-0006,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S005,S005-0006,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S005,S005-0006,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,
+S005,S005-0006,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S002,S002-0004,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S002,S002-0004,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S002,S002-0004,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S002,S002-0004,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S002,S002-0004,INCLUSION,INCL05,IGA >= 3 at screening and baseline,
+S002,S002-0004,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S002,S002-0004,INCLUSION,INCL07,Able to provide written informed consent,Y
+S002,S002-0004,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S002,S002-0004,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S002,S002-0004,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S002,S002-0004,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S002,S002-0004,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S002,S002-0004,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S002,S002-0004,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S002,S002-0004,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S006,S006-0005,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S006,S006-0005,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S006,S006-0005,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S006,S006-0005,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S006,S006-0005,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S006,S006-0005,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S006,S006-0005,INCLUSION,INCL07,Able to provide written informed consent,Y
+S006,S006-0005,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S006,S006-0005,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S006,S006-0005,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S006,S006-0005,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S006,S006-0005,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S006,S006-0005,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S006,S006-0005,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S006,S006-0005,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S004,S004-0006,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S004,S004-0006,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S004,S004-0006,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S004,S004-0006,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S004,S004-0006,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S004,S004-0006,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S004,S004-0006,INCLUSION,INCL07,Able to provide written informed consent,Y
+S004,S004-0006,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S004,S004-0006,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S004,S004-0006,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S004,S004-0006,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S004,S004-0006,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S004,S004-0006,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S004,S004-0006,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S004,S004-0006,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S008,S008-0010,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S008,S008-0010,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S008,S008-0010,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S008,S008-0010,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S008,S008-0010,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S008,S008-0010,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S008,S008-0010,INCLUSION,INCL07,Able to provide written informed consent,Y
+S008,S008-0010,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S008,S008-0010,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S008,S008-0010,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S008,S008-0010,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S008,S008-0010,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S008,S008-0010,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S008,S008-0010,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S008,S008-0010,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S003,S003-0006,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S003,S003-0006,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S003,S003-0006,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S003,S003-0006,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S003,S003-0006,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S003,S003-0006,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S003,S003-0006,INCLUSION,INCL07,Able to provide written informed consent,Y
+S003,S003-0006,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S003,S003-0006,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S003,S003-0006,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S003,S003-0006,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S003,S003-0006,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S003,S003-0006,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S003,S003-0006,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S003,S003-0006,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S003,S003-0007,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S003,S003-0007,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S003,S003-0007,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S003,S003-0007,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S003,S003-0007,INCLUSION,INCL05,IGA >= 3 at screening and baseline,
+S003,S003-0007,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S003,S003-0007,INCLUSION,INCL07,Able to provide written informed consent,Y
+S003,S003-0007,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S003,S003-0007,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S003,S003-0007,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S003,S003-0007,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S003,S003-0007,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S003,S003-0007,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S003,S003-0007,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S003,S003-0007,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S001,S001-0004,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S001,S001-0004,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S001,S001-0004,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S001,S001-0004,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S001,S001-0004,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S001,S001-0004,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S001,S001-0004,INCLUSION,INCL07,Able to provide written informed consent,Y
+S001,S001-0004,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S001,S001-0004,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S001,S001-0004,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S001,S001-0004,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S001,S001-0004,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S001,S001-0004,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S001,S001-0004,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S001,S001-0004,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S006,S006-0006,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S006,S006-0006,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S006,S006-0006,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S006,S006-0006,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S006,S006-0006,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S006,S006-0006,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S006,S006-0006,INCLUSION,INCL07,Able to provide written informed consent,Y
+S006,S006-0006,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S006,S006-0006,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S006,S006-0006,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S006,S006-0006,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S006,S006-0006,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S006,S006-0006,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S006,S006-0006,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S006,S006-0006,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S005,S005-0007,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S005,S005-0007,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S005,S005-0007,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S005,S005-0007,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S005,S005-0007,INCLUSION,INCL05,IGA >= 3 at screening and baseline,
+S005,S005-0007,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S005,S005-0007,INCLUSION,INCL07,Able to provide written informed consent,Y
+S005,S005-0007,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S005,S005-0007,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S005,S005-0007,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S005,S005-0007,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S005,S005-0007,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),
+S005,S005-0007,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S005,S005-0007,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S005,S005-0007,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S003,S003-0008,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S003,S003-0008,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S003,S003-0008,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S003,S003-0008,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S003,S003-0008,INCLUSION,INCL05,IGA >= 3 at screening and baseline,
+S003,S003-0008,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S003,S003-0008,INCLUSION,INCL07,Able to provide written informed consent,
+S003,S003-0008,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S003,S003-0008,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S003,S003-0008,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S003,S003-0008,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S003,S003-0008,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S003,S003-0008,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S003,S003-0008,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S003,S003-0008,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S004,S004-0007,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S004,S004-0007,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S004,S004-0007,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S004,S004-0007,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S004,S004-0007,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S004,S004-0007,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S004,S004-0007,INCLUSION,INCL07,Able to provide written informed consent,Y
+S004,S004-0007,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S004,S004-0007,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S004,S004-0007,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S004,S004-0007,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S004,S004-0007,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S004,S004-0007,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S004,S004-0007,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S004,S004-0007,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S004,S004-0008,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S004,S004-0008,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S004,S004-0008,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S004,S004-0008,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S004,S004-0008,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S004,S004-0008,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S004,S004-0008,INCLUSION,INCL07,Able to provide written informed consent,Y
+S004,S004-0008,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S004,S004-0008,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S004,S004-0008,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S004,S004-0008,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S004,S004-0008,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S004,S004-0008,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S004,S004-0008,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S004,S004-0008,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S007,S007-0007,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S007,S007-0007,INCLUSION,INCL02,Plaque psoriasis for >=6 months,
+S007,S007-0007,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S007,S007-0007,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S007,S007-0007,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S007,S007-0007,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S007,S007-0007,INCLUSION,INCL07,Able to provide written informed consent,Y
+S007,S007-0007,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S007,S007-0007,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S007,S007-0007,EXCLUSION,EXCL03,Active or chronic infection at screening,
+S007,S007-0007,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S007,S007-0007,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S007,S007-0007,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S007,S007-0007,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S007,S007-0007,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S008,S008-0011,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S008,S008-0011,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S008,S008-0011,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S008,S008-0011,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S008,S008-0011,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S008,S008-0011,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S008,S008-0011,INCLUSION,INCL07,Able to provide written informed consent,Y
+S008,S008-0011,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S008,S008-0011,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S008,S008-0011,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S008,S008-0011,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S008,S008-0011,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S008,S008-0011,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S008,S008-0011,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S008,S008-0011,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S002,S002-0005,INCLUSION,INCL01,Age 18-75 inclusive at screening,
+S002,S002-0005,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S002,S002-0005,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S002,S002-0005,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S002,S002-0005,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S002,S002-0005,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S002,S002-0005,INCLUSION,INCL07,Able to provide written informed consent,Y
+S002,S002-0005,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S002,S002-0005,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S002,S002-0005,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S002,S002-0005,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S002,S002-0005,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S002,S002-0005,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S002,S002-0005,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S002,S002-0005,EXCLUSION,BAD CODE,Live vaccine within 4 weeks of baseline,N
+S004,S004-0009,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S004,S004-0009,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S004,S004-0009,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S004,S004-0009,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S004,S004-0009,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S004,S004-0009,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S004,S004-0009,INCLUSION,INCL07,Able to provide written informed consent,Y
+S004,S004-0009,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S004,S004-0009,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S004,S004-0009,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S004,S004-0009,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S004,S004-0009,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S004,S004-0009,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S004,S004-0009,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S004,S004-0009,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S008,S008-0012,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S008,S008-0012,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S008,S008-0012,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S008,S008-0012,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S008,S008-0012,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S008,S008-0012,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S008,S008-0012,INCLUSION,INCL07,Able to provide written informed consent,Y
+S008,S008-0012,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S008,S008-0012,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S008,S008-0012,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S008,S008-0012,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S008,S008-0012,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S008,S008-0012,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S008,S008-0012,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S008,S008-0012,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S008,S008-0013,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S008,S008-0013,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S008,S008-0013,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S008,S008-0013,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S008,S008-0013,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S008,S008-0013,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S008,S008-0013,INCLUSION,INCL07,Able to provide written informed consent,Y
+S008,S008-0013,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S008,S008-0013,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S008,S008-0013,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S008,S008-0013,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S008,S008-0013,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S008,S008-0013,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S008,S008-0013,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S008,S008-0013,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S005,S005-0008,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S005,S005-0008,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S005,S005-0008,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S005,S005-0008,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S005,S005-0008,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S005,S005-0008,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S005,S005-0008,INCLUSION,INCL07,Able to provide written informed consent,
+S005,S005-0008,EXCLUSION,EXCL01,Prior IL-23 biologic failure,
+S005,S005-0008,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S005,S005-0008,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S005,S005-0008,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S005,S005-0008,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S005,S005-0008,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S005,S005-0008,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S005,S005-0008,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,
+S001,S001-0005,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S001,S001-0005,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S001,S001-0005,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S001,S001-0005,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S001,S001-0005,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S001,S001-0005,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S001,S001-0005,INCLUSION,INCL07,Able to provide written informed consent,Y
+S001,S001-0005,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S001,S001-0005,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S001,S001-0005,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S001,S001-0005,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S001,S001-0005,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),
+S001,S001-0005,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S001,S001-0005,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S001,S001-0005,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S002,S002-0006,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S002,S002-0006,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S002,S002-0006,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S002,S002-0006,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S002,S002-0006,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S002,S002-0006,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S002,S002-0006,INCLUSION,INCL07,Able to provide written informed consent,Y
+S002,S002-0006,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S002,S002-0006,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S002,S002-0006,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S002,S002-0006,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S002,S002-0006,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S002,S002-0006,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S002,S002-0006,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S002,S002-0006,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S003,S003-0009,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S003,S003-0009,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S003,S003-0009,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S003,S003-0009,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S003,S003-0009,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S003,S003-0009,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S003,S003-0009,INCLUSION,INCL07,Able to provide written informed consent,Y
+S003,S003-0009,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S003,S003-0009,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S003,S003-0009,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S003,S003-0009,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S003,S003-0009,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S003,S003-0009,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S003,S003-0009,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S003,S003-0009,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S001,S001-0006,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S001,S001-0006,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S001,S001-0006,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S001,S001-0006,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S001,S001-0006,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S001,S001-0006,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S001,S001-0006,INCLUSION,INCL07,Able to provide written informed consent,Y
+S001,S001-0006,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S001,S001-0006,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S001,S001-0006,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S001,S001-0006,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S001,S001-0006,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S001,S001-0006,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S001,S001-0006,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S001,S001-0006,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S004,S004-0010,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S004,S004-0010,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S004,S004-0010,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S004,S004-0010,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S004,S004-0010,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S004,S004-0010,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S004,S004-0010,INCLUSION,INCL07,Able to provide written informed consent,
+S004,S004-0010,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S004,S004-0010,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S004,S004-0010,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S004,S004-0010,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S004,S004-0010,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S004,S004-0010,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S004,S004-0010,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S004,S004-0010,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S006,S006-0007,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S006,S006-0007,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S006,S006-0007,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S006,S006-0007,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S006,S006-0007,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S006,S006-0007,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S006,S006-0007,INCLUSION,INCL07,Able to provide written informed consent,Y
+S006,S006-0007,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S006,S006-0007,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S006,S006-0007,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S006,S006-0007,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S006,S006-0007,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S006,S006-0007,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S006,S006-0007,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S006,S006-0007,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S002,S002-0007,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S002,S002-0007,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S002,S002-0007,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S002,S002-0007,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S002,S002-0007,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S002,S002-0007,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S002,S002-0007,INCLUSION,INCL07,Able to provide written informed consent,Y
+S002,S002-0007,EXCLUSION,EXCL01,Prior IL-23 biologic failure,
+S002,S002-0007,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S002,S002-0007,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S002,S002-0007,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S002,S002-0007,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S002,S002-0007,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S002,S002-0007,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S002,S002-0007,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S005,S005-0009,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S005,S005-0009,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S005,S005-0009,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S005,S005-0009,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S005,S005-0009,INCLUSION,INCL05,IGA >= 3 at screening and baseline,
+S005,S005-0009,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S005,S005-0009,INCLUSION,INCL07,Able to provide written informed consent,Y
+S005,S005-0009,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S005,S005-0009,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S005,S005-0009,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S005,S005-0009,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S005,S005-0009,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S005,S005-0009,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S005,S005-0009,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S005,S005-0009,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S006,S006-0008,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S006,S006-0008,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S006,S006-0008,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S006,S006-0008,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S006,S006-0008,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S006,S006-0008,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S006,S006-0008,INCLUSION,INCL07,Able to provide written informed consent,Y
+S006,S006-0008,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S006,S006-0008,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S006,S006-0008,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S006,S006-0008,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S006,S006-0008,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S006,S006-0008,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S006,S006-0008,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,
+S006,S006-0008,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S001,S001-0007,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S001,S001-0007,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S001,S001-0007,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S001,S001-0007,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S001,S001-0007,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S001,S001-0007,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S001,S001-0007,INCLUSION,INCL07,Able to provide written informed consent,Y
+S001,S001-0007,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S001,S001-0007,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S001,S001-0007,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S001,S001-0007,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S001,S001-0007,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S001,S001-0007,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S001,S001-0007,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S001,S001-0007,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S003,S003-0010,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S003,S003-0010,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S003,S003-0010,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S003,S003-0010,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S003,S003-0010,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S003,S003-0010,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S003,S003-0010,INCLUSION,INCL07,Able to provide written informed consent,Y
+S003,S003-0010,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S003,S003-0010,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S003,S003-0010,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S003,S003-0010,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S003,S003-0010,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S003,S003-0010,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S003,S003-0010,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S003,S003-0010,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S004,S004-0011,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S004,S004-0011,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S004,S004-0011,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S004,S004-0011,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S004,S004-0011,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S004,S004-0011,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S004,S004-0011,INCLUSION,INCL07,Able to provide written informed consent,Y
+S004,S004-0011,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S004,S004-0011,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S004,S004-0011,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S004,S004-0011,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S004,S004-0011,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S004,S004-0011,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S004,S004-0011,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S004,S004-0011,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S001,S001-0008,INCLUSION,INCL01,Age 18-75 inclusive at screening,
+S001,S001-0008,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S001,S001-0008,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S001,S001-0008,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S001,S001-0008,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S001,S001-0008,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S001,S001-0008,INCLUSION,INCL07,Able to provide written informed consent,Y
+S001,S001-0008,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S001,S001-0008,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S001,S001-0008,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S001,S001-0008,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S001,S001-0008,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),
+S001,S001-0008,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S001,S001-0008,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S001,S001-0008,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S007,S007-0008,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S007,S007-0008,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S007,S007-0008,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S007,S007-0008,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S007,S007-0008,INCLUSION,INCL05,IGA >= 3 at screening and baseline,
+S007,S007-0008,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S007,S007-0008,INCLUSION,INCL07,Able to provide written informed consent,Y
+S007,S007-0008,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S007,S007-0008,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S007,S007-0008,EXCLUSION,EXCL03,Active or chronic infection at screening,
+S007,S007-0008,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S007,S007-0008,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S007,S007-0008,EXCLUSION,EXCL06,Pregnancy or lactation,
+S007,S007-0008,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S007,S007-0008,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S001,S001-0009,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S001,S001-0009,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S001,S001-0009,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S001,S001-0009,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S001,S001-0009,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S001,S001-0009,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S001,S001-0009,INCLUSION,INCL07,Able to provide written informed consent,Y
+S001,S001-0009,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S001,S001-0009,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S001,S001-0009,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S001,S001-0009,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S001,S001-0009,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S001,S001-0009,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S001,S001-0009,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S001,S001-0009,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S001,S001-0010,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S001,S001-0010,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S001,S001-0010,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S001,S001-0010,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S001,S001-0010,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S001,S001-0010,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S001,S001-0010,INCLUSION,INCL07,Able to provide written informed consent,Y
+S001,S001-0010,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S001,S001-0010,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S001,S001-0010,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S001,S001-0010,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S001,S001-0010,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S001,S001-0010,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S001,S001-0010,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S001,S001-0010,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S006,S006-0009,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S006,S006-0009,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S006,S006-0009,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S006,S006-0009,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S006,S006-0009,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S006,S006-0009,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S006,S006-0009,INCLUSION,INCL07,Able to provide written informed consent,Y
+S006,S006-0009,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S006,S006-0009,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S006,S006-0009,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S006,S006-0009,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S006,S006-0009,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S006,S006-0009,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S006,S006-0009,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S006,S006-0009,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S004,S004-0012,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S004,S004-0012,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S004,S004-0012,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S004,S004-0012,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S004,S004-0012,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S004,S004-0012,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S004,S004-0012,INCLUSION,INCL07,Able to provide written informed consent,Y
+S004,S004-0012,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S004,S004-0012,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S004,S004-0012,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S004,S004-0012,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S004,S004-0012,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S004,S004-0012,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S004,S004-0012,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S004,S004-0012,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S005,S005-0010,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S005,S005-0010,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S005,S005-0010,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S005,S005-0010,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S005,S005-0010,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S005,S005-0010,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,
+S005,S005-0010,INCLUSION,INCL07,Able to provide written informed consent,Y
+S005,S005-0010,EXCLUSION,EXCL01,Prior IL-23 biologic failure,
+S005,S005-0010,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S005,S005-0010,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S005,S005-0010,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S005,S005-0010,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S005,S005-0010,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S005,S005-0010,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S005,S005-0010,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S002,S002-0008,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S002,S002-0008,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S002,S002-0008,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S002,S002-0008,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S002,S002-0008,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S002,S002-0008,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S002,S002-0008,INCLUSION,INCL07,Able to provide written informed consent,Y
+S002,S002-0008,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S002,S002-0008,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S002,S002-0008,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S002,S002-0008,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S002,S002-0008,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S002,S002-0008,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S002,S002-0008,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S002,S002-0008,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S001,S001-0011,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S001,S001-0011,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S001,S001-0011,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S001,S001-0011,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S001,S001-0011,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S001,S001-0011,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S001,S001-0011,INCLUSION,INCL07,Able to provide written informed consent,Y
+S001,S001-0011,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S001,S001-0011,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S001,S001-0011,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S001,S001-0011,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S001,S001-0011,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S001,S001-0011,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S001,S001-0011,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S001,S001-0011,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S005,S005-0011,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S005,S005-0011,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S005,S005-0011,INCLUSION,INCL03,PASI >= 12 at screening and baseline,
+S005,S005-0011,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S005,S005-0011,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S005,S005-0011,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S005,S005-0011,INCLUSION,INCL07,Able to provide written informed consent,
+S005,S005-0011,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S005,S005-0011,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S005,S005-0011,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S005,S005-0011,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S005,S005-0011,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S005,S005-0011,EXCLUSION,EXCL06,Pregnancy or lactation,
+S005,S005-0011,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S005,S005-0011,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S004,S004-0013,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S004,S004-0013,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S004,S004-0013,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S004,S004-0013,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S004,S004-0013,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S004,S004-0013,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,
+S004,S004-0013,INCLUSION,INCL07,Able to provide written informed consent,Y
+S004,S004-0013,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S004,S004-0013,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S004,S004-0013,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S004,S004-0013,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S004,S004-0013,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S004,S004-0013,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S004,S004-0013,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S004,S004-0013,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S005,S005-0012,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S005,S005-0012,INCLUSION,INCL02,Plaque psoriasis for >=6 months,
+S005,S005-0012,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S005,S005-0012,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S005,S005-0012,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S005,S005-0012,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S005,S005-0012,INCLUSION,INCL07,Able to provide written informed consent,Y
+S005,S005-0012,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S005,S005-0012,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,
+S005,S005-0012,EXCLUSION,EXCL03,Active or chronic infection at screening,
+S005,S005-0012,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S005,S005-0012,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S005,S005-0012,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S005,S005-0012,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S005,S005-0012,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S002,S002-0009,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S002,S002-0009,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S002,S002-0009,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S002,S002-0009,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S002,S002-0009,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S002,S002-0009,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S002,S002-0009,INCLUSION,INCL07,Able to provide written informed consent,Y
+S002,S002-0009,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S002,S002-0009,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S002,S002-0009,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S002,S002-0009,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S002,S002-0009,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S002,S002-0009,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S002,S002-0009,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S002,S002-0009,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S008,S008-0014,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S008,S008-0014,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S008,S008-0014,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S008,S008-0014,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S008,S008-0014,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S008,S008-0014,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S008,S008-0014,INCLUSION,INCL07,Able to provide written informed consent,Y
+S008,S008-0014,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S008,S008-0014,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S008,S008-0014,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S008,S008-0014,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S008,S008-0014,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S008,S008-0014,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S008,S008-0014,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S008,S008-0014,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S001,S001-0012,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S001,S001-0012,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S001,S001-0012,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S001,S001-0012,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S001,S001-0012,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S001,S001-0012,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S001,S001-0012,INCLUSION,INCL07,Able to provide written informed consent,Y
+S001,S001-0012,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S001,S001-0012,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S001,S001-0012,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S001,S001-0012,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S001,S001-0012,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S001,S001-0012,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S001,S001-0012,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S001,S001-0012,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S005,S005-0013,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S005,S005-0013,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S005,S005-0013,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S005,S005-0013,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S005,S005-0013,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S005,S005-0013,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S005,S005-0013,INCLUSION,INCL07,Able to provide written informed consent,Y
+S005,S005-0013,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S005,S005-0013,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S005,S005-0013,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S005,S005-0013,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S005,S005-0013,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S005,S005-0013,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S005,S005-0013,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S005,S005-0013,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S007,S007-0009,INCLUSION,INCL01,Age 18-75 inclusive at screening,
+S007,S007-0009,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S007,S007-0009,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S007,S007-0009,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S007,S007-0009,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S007,S007-0009,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S007,S007-0009,INCLUSION,INCL07,Able to provide written informed consent,Y
+S007,S007-0009,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S007,S007-0009,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S007,S007-0009,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S007,S007-0009,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S007,S007-0009,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S007,S007-0009,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S007,S007-0009,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S007,S007-0009,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S001,S001-0013,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S001,S001-0013,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S001,S001-0013,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S001,S001-0013,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S001,S001-0013,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S001,S001-0013,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S001,S001-0013,INCLUSION,INCL07,Able to provide written informed consent,Y
+S001,S001-0013,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S001,S001-0013,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S001,S001-0013,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S001,S001-0013,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S001,S001-0013,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S001,S001-0013,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S001,S001-0013,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S001,S001-0013,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S001,S001-0014,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S001,S001-0014,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S001,S001-0014,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S001,S001-0014,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S001,S001-0014,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S001,S001-0014,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S001,S001-0014,INCLUSION,INCL07,Able to provide written informed consent,Y
+S001,S001-0014,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S001,S001-0014,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S001,S001-0014,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S001,S001-0014,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S001,S001-0014,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S001,S001-0014,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S001,S001-0014,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S001,S001-0014,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S002,S002-0010,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S002,S002-0010,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S002,S002-0010,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S002,S002-0010,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S002,S002-0010,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S002,S002-0010,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S002,S002-0010,INCLUSION,INCL07,Able to provide written informed consent,Y
+S002,S002-0010,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S002,S002-0010,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S002,S002-0010,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S002,S002-0010,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S002,S002-0010,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S002,S002-0010,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S002,S002-0010,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S002,S002-0010,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S004,S004-0014,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S004,S004-0014,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S004,S004-0014,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S004,S004-0014,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S004,S004-0014,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S004,S004-0014,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S004,S004-0014,INCLUSION,INCL07,Able to provide written informed consent,Y
+S004,S004-0014,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S004,S004-0014,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S004,S004-0014,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S004,S004-0014,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S004,S004-0014,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S004,S004-0014,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S004,S004-0014,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S004,S004-0014,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S003,S003-0011,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S003,S003-0011,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S003,S003-0011,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S003,S003-0011,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S003,S003-0011,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S003,S003-0011,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S003,S003-0011,INCLUSION,INCL07,Able to provide written informed consent,Y
+S003,S003-0011,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S003,S003-0011,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S003,S003-0011,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S003,S003-0011,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S003,S003-0011,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S003,S003-0011,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S003,S003-0011,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S003,S003-0011,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S006,S006-0010,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S006,S006-0010,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S006,S006-0010,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S006,S006-0010,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S006,S006-0010,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S006,S006-0010,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S006,S006-0010,INCLUSION,INCL07,Able to provide written informed consent,Y
+S006,S006-0010,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S006,S006-0010,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S006,S006-0010,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S006,S006-0010,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S006,S006-0010,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S006,S006-0010,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S006,S006-0010,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S006,S006-0010,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S004,S004-0015,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S004,S004-0015,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S004,S004-0015,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S004,S004-0015,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S004,S004-0015,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S004,S004-0015,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S004,S004-0015,INCLUSION,INCL07,Able to provide written informed consent,Y
+S004,S004-0015,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S004,S004-0015,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S004,S004-0015,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S004,S004-0015,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S004,S004-0015,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S004,S004-0015,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S004,S004-0015,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S004,S004-0015,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S004,S004-0016,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S004,S004-0016,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S004,S004-0016,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S004,S004-0016,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S004,S004-0016,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S004,S004-0016,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S004,S004-0016,INCLUSION,INCL07,Able to provide written informed consent,Y
+S004,S004-0016,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S004,S004-0016,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S004,S004-0016,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S004,S004-0016,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S004,S004-0016,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S004,S004-0016,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S004,S004-0016,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S004,S004-0016,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S007,S007-0010,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S007,S007-0010,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S007,S007-0010,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S007,S007-0010,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S007,S007-0010,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S007,S007-0010,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S007,S007-0010,INCLUSION,INCL07,Able to provide written informed consent,Y
+S007,S007-0010,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S007,S007-0010,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S007,S007-0010,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S007,S007-0010,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S007,S007-0010,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),
+S007,S007-0010,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S007,S007-0010,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S007,S007-0010,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S003,S003-0012,INCLUSION,INCL01,Age 18-75 inclusive at screening,
+S003,S003-0012,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S003,S003-0012,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S003,S003-0012,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S003,S003-0012,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S003,S003-0012,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S003,S003-0012,INCLUSION,INCL07,Able to provide written informed consent,Y
+S003,S003-0012,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S003,S003-0012,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S003,S003-0012,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S003,S003-0012,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S003,S003-0012,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S003,S003-0012,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S003,S003-0012,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S003,S003-0012,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,
+S002,S002-0011,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S002,S002-0011,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S002,S002-0011,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S002,S002-0011,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S002,S002-0011,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S002,S002-0011,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S002,S002-0011,INCLUSION,INCL07,Able to provide written informed consent,Y
+S002,S002-0011,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S002,S002-0011,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S002,S002-0011,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S002,S002-0011,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S002,S002-0011,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S002,S002-0011,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S002,S002-0011,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S002,S002-0011,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S001,S001-0015,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S001,S001-0015,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S001,S001-0015,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S001,S001-0015,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S001,S001-0015,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S001,S001-0015,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S001,S001-0015,INCLUSION,INCL07,Able to provide written informed consent,Y
+S001,S001-0015,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S001,S001-0015,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S001,S001-0015,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S001,S001-0015,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S001,S001-0015,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S001,S001-0015,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S001,S001-0015,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S001,S001-0015,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S005,S005-0014,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S005,S005-0014,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S005,S005-0014,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S005,S005-0014,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S005,S005-0014,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S005,S005-0014,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S005,S005-0014,INCLUSION,INCL07,Able to provide written informed consent,Y
+S005,S005-0014,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S005,S005-0014,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,
+S005,S005-0014,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S005,S005-0014,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,
+S005,S005-0014,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S005,S005-0014,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S005,S005-0014,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,
+S005,S005-0014,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S006,S006-0011,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S006,S006-0011,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S006,S006-0011,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S006,S006-0011,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S006,S006-0011,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S006,S006-0011,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S006,S006-0011,INCLUSION,INCL07,Able to provide written informed consent,Y
+S006,S006-0011,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S006,S006-0011,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S006,S006-0011,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S006,S006-0011,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S006,S006-0011,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S006,S006-0011,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S006,S006-0011,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S006,S006-0011,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S002,S002-0012,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S002,S002-0012,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S002,S002-0012,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S002,S002-0012,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S002,S002-0012,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S002,S002-0012,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S002,S002-0012,INCLUSION,INCL07,Able to provide written informed consent,Y
+S002,S002-0012,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S002,S002-0012,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S002,S002-0012,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S002,S002-0012,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S002,S002-0012,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S002,S002-0012,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S002,S002-0012,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S002,S002-0012,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,
+S003,S003-0013,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S003,S003-0013,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S003,S003-0013,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S003,S003-0013,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S003,S003-0013,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S003,S003-0013,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S003,S003-0013,INCLUSION,INCL07,Able to provide written informed consent,Y
+S003,S003-0013,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S003,S003-0013,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S003,S003-0013,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S003,S003-0013,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S003,S003-0013,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S003,S003-0013,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S003,S003-0013,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S003,S003-0013,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S005,S005-0015,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S005,S005-0015,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S005,S005-0015,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S005,S005-0015,INCLUSION,INCL04,BSA >= 10% at screening and baseline,
+S005,S005-0015,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S005,S005-0015,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S005,S005-0015,INCLUSION,INCL07,Able to provide written informed consent,Y
+S005,S005-0015,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S005,S005-0015,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S005,S005-0015,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S005,S005-0015,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S005,S005-0015,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S005,S005-0015,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S005,S005-0015,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S005,S005-0015,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S006,S006-0012,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S006,S006-0012,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S006,S006-0012,INCLUSION,INCL03,PASI >= 12 at screening and baseline,
+S006,S006-0012,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S006,S006-0012,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S006,S006-0012,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S006,S006-0012,INCLUSION,INCL07,Able to provide written informed consent,Y
+S006,S006-0012,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S006,S006-0012,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S006,S006-0012,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S006,S006-0012,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S006,S006-0012,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S006,S006-0012,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S006,S006-0012,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S006,S006-0012,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S002,S002-0013,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S002,S002-0013,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S002,S002-0013,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S002,S002-0013,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S002,S002-0013,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S002,S002-0013,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S002,S002-0013,INCLUSION,INCL07,Able to provide written informed consent,Y
+S002,S002-0013,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S002,S002-0013,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S002,S002-0013,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S002,S002-0013,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S002,S002-0013,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S002,S002-0013,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S002,S002-0013,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S002,S002-0013,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S001,S001-0016,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S001,S001-0016,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S001,S001-0016,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S001,S001-0016,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S001,S001-0016,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S001,S001-0016,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S001,S001-0016,INCLUSION,INCL07,Able to provide written informed consent,Y
+S001,S001-0016,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S001,S001-0016,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S001,S001-0016,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S001,S001-0016,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S001,S001-0016,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S001,S001-0016,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S001,S001-0016,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S001,S001-0016,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S004,S004-0017,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S004,S004-0017,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S004,S004-0017,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S004,S004-0017,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S004,S004-0017,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S004,S004-0017,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S004,S004-0017,INCLUSION,INCL07,Able to provide written informed consent,Y
+S004,S004-0017,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S004,S004-0017,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S004,S004-0017,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S004,S004-0017,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S004,S004-0017,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S004,S004-0017,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S004,S004-0017,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S004,S004-0017,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S006,S006-0013,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S006,S006-0013,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S006,S006-0013,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S006,S006-0013,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S006,S006-0013,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S006,S006-0013,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S006,S006-0013,INCLUSION,INCL07,Able to provide written informed consent,Y
+S006,S006-0013,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S006,S006-0013,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S006,S006-0013,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S006,S006-0013,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S006,S006-0013,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S006,S006-0013,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S006,S006-0013,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S006,S006-0013,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S005,S005-0016,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S005,S005-0016,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S005,S005-0016,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S005,S005-0016,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S005,S005-0016,INCLUSION,INCL05,IGA >= 3 at screening and baseline,
+S005,S005-0016,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S005,S005-0016,INCLUSION,INCL07,Able to provide written informed consent,Y
+S005,S005-0016,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S005,S005-0016,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S005,S005-0016,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S005,S005-0016,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S005,S005-0016,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S005,S005-0016,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S005,S005-0016,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S005,S005-0016,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S001,S001-0017,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S001,S001-0017,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S001,S001-0017,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S001,S001-0017,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S001,S001-0017,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S001,S001-0017,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S001,S001-0017,INCLUSION,INCL07,Able to provide written informed consent,Y
+S001,S001-0017,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S001,S001-0017,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S001,S001-0017,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S001,S001-0017,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S001,S001-0017,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S001,S001-0017,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S001,S001-0017,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S001,S001-0017,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S008,S008-0015,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S008,S008-0015,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S008,S008-0015,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S008,S008-0015,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S008,S008-0015,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S008,S008-0015,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S008,S008-0015,INCLUSION,INCL07,Able to provide written informed consent,Y
+S008,S008-0015,EXCLUSION,EXCL01,Prior IL-23 biologic failure,
+S008,S008-0015,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S008,S008-0015,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S008,S008-0015,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S008,S008-0015,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S008,S008-0015,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S008,S008-0015,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S008,S008-0015,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S008,S008-0016,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S008,S008-0016,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S008,S008-0016,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S008,S008-0016,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S008,S008-0016,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S008,S008-0016,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S008,S008-0016,INCLUSION,INCL07,Able to provide written informed consent,Y
+S008,S008-0016,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S008,S008-0016,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S008,S008-0016,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S008,S008-0016,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S008,S008-0016,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S008,S008-0016,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S008,S008-0016,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S008,S008-0016,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S007,S007-0011,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S007,S007-0011,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S007,S007-0011,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S007,S007-0011,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S007,S007-0011,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S007,S007-0011,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S007,S007-0011,INCLUSION,INCL07,Able to provide written informed consent,Y
+S007,S007-0011,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S007,S007-0011,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,
+S007,S007-0011,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S007,S007-0011,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S007,S007-0011,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S007,S007-0011,EXCLUSION,EXCL06,Pregnancy or lactation,
+S007,S007-0011,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S007,S007-0011,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S008,S008-0017,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S008,S008-0017,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S008,S008-0017,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S008,S008-0017,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S008,S008-0017,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S008,S008-0017,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S008,S008-0017,INCLUSION,INCL07,Able to provide written informed consent,Y
+S008,S008-0017,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S008,S008-0017,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S008,S008-0017,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S008,S008-0017,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S008,S008-0017,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S008,S008-0017,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S008,S008-0017,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S008,S008-0017,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S008,S008-0018,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S008,S008-0018,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S008,S008-0018,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S008,S008-0018,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S008,S008-0018,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S008,S008-0018,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S008,S008-0018,INCLUSION,INCL07,Able to provide written informed consent,Y
+S008,S008-0018,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S008,S008-0018,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S008,S008-0018,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S008,S008-0018,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S008,S008-0018,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S008,S008-0018,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S008,S008-0018,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S008,S008-0018,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S006,S006-0014,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S006,S006-0014,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S006,S006-0014,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S006,S006-0014,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S006,S006-0014,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S006,S006-0014,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S006,S006-0014,INCLUSION,INCL07,Able to provide written informed consent,Y
+S006,S006-0014,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S006,S006-0014,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S006,S006-0014,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S006,S006-0014,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S006,S006-0014,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S006,S006-0014,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S006,S006-0014,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S006,S006-0014,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S003,S003-0014,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S003,S003-0014,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S003,S003-0014,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S003,S003-0014,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S003,S003-0014,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S003,S003-0014,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S003,S003-0014,INCLUSION,INCL07,Able to provide written informed consent,Y
+S003,S003-0014,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S003,S003-0014,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S003,S003-0014,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S003,S003-0014,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S003,S003-0014,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S003,S003-0014,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S003,S003-0014,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S003,S003-0014,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S005,S005-0017,INCLUSION,INCL01,Age 18-75 inclusive at screening,
+S005,S005-0017,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S005,S005-0017,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S005,S005-0017,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S005,S005-0017,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S005,S005-0017,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S005,S005-0017,INCLUSION,INCL07,Able to provide written informed consent,Y
+S005,S005-0017,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S005,S005-0017,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S005,S005-0017,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S005,S005-0017,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,
+S005,S005-0017,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S005,S005-0017,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S005,S005-0017,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S005,S005-0017,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S003,S003-0015,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S003,S003-0015,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S003,S003-0015,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S003,S003-0015,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S003,S003-0015,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S003,S003-0015,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S003,S003-0015,INCLUSION,INCL07,Able to provide written informed consent,Y
+S003,S003-0015,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S003,S003-0015,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S003,S003-0015,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S003,S003-0015,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S003,S003-0015,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S003,S003-0015,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S003,S003-0015,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S003,S003-0015,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S006,S006-0015,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S006,S006-0015,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S006,S006-0015,INCLUSION,INCL03,PASI >= 12 at screening and baseline,
+S006,S006-0015,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S006,S006-0015,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S006,S006-0015,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S006,S006-0015,INCLUSION,INCL07,Able to provide written informed consent,Y
+S006,S006-0015,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S006,S006-0015,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S006,S006-0015,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S006,S006-0015,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S006,S006-0015,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S006,S006-0015,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S006,S006-0015,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S006,S006-0015,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S003,S003-0016,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S003,S003-0016,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S003,S003-0016,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S003,S003-0016,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S003,S003-0016,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S003,S003-0016,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S003,S003-0016,INCLUSION,INCL07,Able to provide written informed consent,Y
+S003,S003-0016,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S003,S003-0016,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S003,S003-0016,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S003,S003-0016,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S003,S003-0016,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S003,S003-0016,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S003,S003-0016,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S003,S003-0016,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S004,S004-0018,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S004,S004-0018,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S004,S004-0018,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S004,S004-0018,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S004,S004-0018,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S004,S004-0018,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S004,S004-0018,INCLUSION,INCL07,Able to provide written informed consent,Y
+S004,S004-0018,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S004,S004-0018,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S004,S004-0018,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S004,S004-0018,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S004,S004-0018,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S004,S004-0018,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S004,S004-0018,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S004,S004-0018,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S008,S008-0019,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S008,S008-0019,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S008,S008-0019,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S008,S008-0019,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S008,S008-0019,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S008,S008-0019,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S008,S008-0019,INCLUSION,INCL07,Able to provide written informed consent,Y
+S008,S008-0019,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S008,S008-0019,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S008,S008-0019,EXCLUSION,EXCL03,Active or chronic infection at screening,
+S008,S008-0019,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S008,S008-0019,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S008,S008-0019,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S008,S008-0019,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S008,S008-0019,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S004,S004-0019,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S004,S004-0019,INCLUSION,INCL02,Plaque psoriasis for >=6 months,
+S004,S004-0019,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S004,S004-0019,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S004,S004-0019,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S004,S004-0019,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S004,S004-0019,INCLUSION,INCL07,Able to provide written informed consent,Y
+S004,S004-0019,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S004,S004-0019,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S004,S004-0019,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S004,S004-0019,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S004,S004-0019,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S004,S004-0019,EXCLUSION,EXCL06,Pregnancy or lactation,
+S004,S004-0019,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S004,S004-0019,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S008,S008-0020,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S008,S008-0020,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S008,S008-0020,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S008,S008-0020,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S008,S008-0020,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S008,S008-0020,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S008,S008-0020,INCLUSION,INCL07,Able to provide written informed consent,Y
+S008,S008-0020,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S008,S008-0020,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S008,S008-0020,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S008,S008-0020,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S008,S008-0020,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S008,S008-0020,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S008,S008-0020,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S008,S008-0020,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S002,S002-0014,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S002,S002-0014,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S002,S002-0014,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S002,S002-0014,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S002,S002-0014,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S002,S002-0014,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S002,S002-0014,INCLUSION,INCL07,Able to provide written informed consent,Y
+S002,S002-0014,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S002,S002-0014,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S002,S002-0014,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S002,S002-0014,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S002,S002-0014,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S002,S002-0014,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S002,S002-0014,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S002,S002-0014,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S004,S004-0020,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S004,S004-0020,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S004,S004-0020,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S004,S004-0020,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S004,S004-0020,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S004,S004-0020,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S004,S004-0020,INCLUSION,INCL07,Able to provide written informed consent,Y
+S004,S004-0020,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S004,S004-0020,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S004,S004-0020,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S004,S004-0020,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S004,S004-0020,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S004,S004-0020,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S004,S004-0020,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S004,S004-0020,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S005,S005-0018,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S005,S005-0018,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S005,S005-0018,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S005,S005-0018,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S005,S005-0018,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S005,S005-0018,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S005,S005-0018,INCLUSION,INCL07,Able to provide written informed consent,Y
+S005,S005-0018,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S005,S005-0018,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S005,S005-0018,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S005,S005-0018,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S005,S005-0018,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S005,S005-0018,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S005,S005-0018,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S005,S005-0018,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S003,S003-0017,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S003,S003-0017,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S003,S003-0017,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S003,S003-0017,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S003,S003-0017,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S003,S003-0017,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S003,S003-0017,INCLUSION,INCL07,Able to provide written informed consent,Y
+S003,S003-0017,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S003,S003-0017,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S003,S003-0017,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S003,S003-0017,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S003,S003-0017,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S003,S003-0017,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S003,S003-0017,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S003,S003-0017,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S002,S002-0015,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S002,S002-0015,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S002,S002-0015,INCLUSION,INCL03,PASI >= 12 at screening and baseline,
+S002,S002-0015,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S002,S002-0015,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S002,S002-0015,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S002,S002-0015,INCLUSION,INCL07,Able to provide written informed consent,Y
+S002,S002-0015,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S002,S002-0015,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S002,S002-0015,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S002,S002-0015,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S002,S002-0015,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S002,S002-0015,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S002,S002-0015,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S002,S002-0015,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S003,S003-0018,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S003,S003-0018,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S003,S003-0018,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S003,S003-0018,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S003,S003-0018,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S003,S003-0018,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S003,S003-0018,INCLUSION,INCL07,Able to provide written informed consent,Y
+S003,S003-0018,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S003,S003-0018,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S003,S003-0018,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S003,S003-0018,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S003,S003-0018,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S003,S003-0018,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S003,S003-0018,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S003,S003-0018,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S003,S003-0019,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S003,S003-0019,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S003,S003-0019,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S003,S003-0019,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S003,S003-0019,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S003,S003-0019,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S003,S003-0019,INCLUSION,INCL07,Able to provide written informed consent,Y
+S003,S003-0019,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S003,S003-0019,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S003,S003-0019,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S003,S003-0019,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S003,S003-0019,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S003,S003-0019,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S003,S003-0019,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S003,S003-0019,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S002,S002-0016,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S002,S002-0016,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S002,S002-0016,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S002,S002-0016,INCLUSION,INCL04,BSA >= 10% at screening and baseline,
+S002,S002-0016,INCLUSION,INCL05,IGA >= 3 at screening and baseline,
+S002,S002-0016,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S002,S002-0016,INCLUSION,INCL07,Able to provide written informed consent,Y
+S002,S002-0016,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S002,S002-0016,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S002,S002-0016,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S002,S002-0016,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S002,S002-0016,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S002,S002-0016,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S002,S002-0016,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S002,S002-0016,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S003,S003-0020,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S003,S003-0020,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S003,S003-0020,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S003,S003-0020,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S003,S003-0020,INCLUSION,INCL05,IGA >= 3 at screening and baseline,
+S003,S003-0020,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S003,S003-0020,INCLUSION,INCL07,Able to provide written informed consent,Y
+S003,S003-0020,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S003,S003-0020,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S003,S003-0020,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S003,S003-0020,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S003,S003-0020,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S003,S003-0020,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S003,S003-0020,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S003,S003-0020,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S001,S001-0018,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S001,S001-0018,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S001,S001-0018,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S001,S001-0018,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S001,S001-0018,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S001,S001-0018,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S001,S001-0018,INCLUSION,INCL07,Able to provide written informed consent,Y
+S001,S001-0018,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S001,S001-0018,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S001,S001-0018,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S001,S001-0018,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S001,S001-0018,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S001,S001-0018,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S001,S001-0018,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S001,S001-0018,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S005,S005-0019,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S005,S005-0019,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S005,S005-0019,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S005,S005-0019,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S005,S005-0019,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S005,S005-0019,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,
+S005,S005-0019,INCLUSION,INCL07,Able to provide written informed consent,Y
+S005,S005-0019,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S005,S005-0019,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S005,S005-0019,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S005,S005-0019,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S005,S005-0019,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S005,S005-0019,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S005,S005-0019,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,
+S005,S005-0019,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S001,S001-0019,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S001,S001-0019,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S001,S001-0019,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S001,S001-0019,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S001,S001-0019,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S001,S001-0019,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S001,S001-0019,INCLUSION,INCL07,Able to provide written informed consent,Y
+S001,S001-0019,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S001,S001-0019,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S001,S001-0019,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S001,S001-0019,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S001,S001-0019,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S001,S001-0019,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S001,S001-0019,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S001,S001-0019,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S001,S001-0020,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S001,S001-0020,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S001,S001-0020,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S001,S001-0020,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S001,S001-0020,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S001,S001-0020,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S001,S001-0020,INCLUSION,INCL07,Able to provide written informed consent,Y
+S001,S001-0020,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S001,S001-0020,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S001,S001-0020,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S001,S001-0020,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S001,S001-0020,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S001,S001-0020,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S001,S001-0020,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S001,S001-0020,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S005,S005-0020,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S005,S005-0020,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S005,S005-0020,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S005,S005-0020,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S005,S005-0020,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S005,S005-0020,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S005,S005-0020,INCLUSION,INCL07,Able to provide written informed consent,
+S005,S005-0020,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S005,S005-0020,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S005,S005-0020,EXCLUSION,EXCL03,Active or chronic infection at screening,
+S005,S005-0020,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S005,S005-0020,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S005,S005-0020,EXCLUSION,EXCL06,Pregnancy or lactation,
+S005,S005-0020,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S005,S005-0020,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S003,S003-0021,INCLUSION,INCL01,Age 18-75 inclusive at screening,
+S003,S003-0021,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S003,S003-0021,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S003,S003-0021,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S003,S003-0021,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S003,S003-0021,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S003,S003-0021,INCLUSION,INCL07,Able to provide written informed consent,Y
+S003,S003-0021,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S003,S003-0021,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S003,S003-0021,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S003,S003-0021,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S003,S003-0021,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S003,S003-0021,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S003,S003-0021,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S003,S003-0021,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S008,S008-0021,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S008,S008-0021,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S008,S008-0021,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S008,S008-0021,INCLUSION,INCL04,BSA >= 10% at screening and baseline,
+S008,S008-0021,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S008,S008-0021,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S008,S008-0021,INCLUSION,INCL07,Able to provide written informed consent,Y
+S008,S008-0021,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S008,S008-0021,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S008,S008-0021,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S008,S008-0021,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S008,S008-0021,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S008,S008-0021,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S008,S008-0021,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S008,S008-0021,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S008,S008-0022,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S008,S008-0022,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S008,S008-0022,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S008,S008-0022,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S008,S008-0022,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S008,S008-0022,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,
+S008,S008-0022,INCLUSION,INCL07,Able to provide written informed consent,Y
+S008,S008-0022,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S008,S008-0022,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S008,S008-0022,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S008,S008-0022,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S008,S008-0022,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S008,S008-0022,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S008,S008-0022,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S008,S008-0022,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S007,S007-0012,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S007,S007-0012,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S007,S007-0012,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S007,S007-0012,INCLUSION,INCL04,BSA >= 10% at screening and baseline,
+S007,S007-0012,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S007,S007-0012,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S007,S007-0012,INCLUSION,INCL07,Able to provide written informed consent,
+S007,S007-0012,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S007,S007-0012,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S007,S007-0012,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S007,S007-0012,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S007,S007-0012,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S007,S007-0012,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S007,S007-0012,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S007,S007-0012,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S004,S004-0021,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S004,S004-0021,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S004,S004-0021,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S004,S004-0021,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S004,S004-0021,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S004,S004-0021,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S004,S004-0021,INCLUSION,INCL07,Able to provide written informed consent,Y
+S004,S004-0021,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S004,S004-0021,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S004,S004-0021,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S004,S004-0021,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S004,S004-0021,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S004,S004-0021,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S004,S004-0021,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S004,S004-0021,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S005,S005-0021,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S005,S005-0021,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S005,S005-0021,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S005,S005-0021,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S005,S005-0021,INCLUSION,INCL05,IGA >= 3 at screening and baseline,Y
+S005,S005-0021,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S005,S005-0021,INCLUSION,INCL07,Able to provide written informed consent,Y
+S005,S005-0021,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S005,S005-0021,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S005,S005-0021,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S005,S005-0021,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S005,S005-0021,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S005,S005-0021,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S005,S005-0021,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S005,S005-0021,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S007,S007-0013,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S007,S007-0013,INCLUSION,INCL02,Plaque psoriasis for >=6 months,Y
+S007,S007-0013,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S007,S007-0013,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S007,S007-0013,INCLUSION,INCL05,IGA >= 3 at screening and baseline,
+S007,S007-0013,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S007,S007-0013,INCLUSION,INCL07,Able to provide written informed consent,Y
+S007,S007-0013,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S007,S007-0013,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,N
+S007,S007-0013,EXCLUSION,EXCL03,Active or chronic infection at screening,N
+S007,S007-0013,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S007,S007-0013,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S007,S007-0013,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S007,S007-0013,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,N
+S007,S007-0013,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N
+S005,S005-0022,INCLUSION,INCL01,Age 18-75 inclusive at screening,Y
+S005,S005-0022,INCLUSION,INCL02,Plaque psoriasis for >=6 months,
+S005,S005-0022,INCLUSION,INCL03,PASI >= 12 at screening and baseline,Y
+S005,S005-0022,INCLUSION,INCL04,BSA >= 10% at screening and baseline,Y
+S005,S005-0022,INCLUSION,INCL05,IGA >= 3 at screening and baseline,
+S005,S005-0022,INCLUSION,INCL06,Candidate for systemic therapy or phototherapy,Y
+S005,S005-0022,INCLUSION,INCL07,Able to provide written informed consent,Y
+S005,S005-0022,EXCLUSION,EXCL01,Prior IL-23 biologic failure,N
+S005,S005-0022,EXCLUSION,EXCL02,Biologic agent within 5 half-lives,
+S005,S005-0022,EXCLUSION,EXCL03,Active or chronic infection at screening,
+S005,S005-0022,EXCLUSION,EXCL04,Latent or active TB without prophylaxis,N
+S005,S005-0022,EXCLUSION,EXCL05,Malignancy within 5 years (with exceptions),N
+S005,S005-0022,EXCLUSION,EXCL06,Pregnancy or lactation,N
+S005,S005-0022,EXCLUSION,EXCL07,Clinically significant comorbidity per investigator,
+S005,S005-0022,EXCLUSION,EXCL08,Live vaccine within 4 weeks of baseline,N

@@ -51,11 +51,13 @@ site_bias:
   # 2% baseline × 6 = 12% → above KRI-05 10% threshold.
   missing_data_multiplier: 6.0
   # Mean AE-entry-latency in days at problem sites (normal sites use 2.0).
-  # >5d median triggers KRI-03 HIGH flag.
-  ae_latency_mean_days: 6.0
+  # >5d median triggers KRI-03 HIGH flag. With exponential dist, median ≈
+  # mean*ln(2), so mean=9.0 -> median≈6.2d, comfortably above threshold.
+  ae_latency_mean_days: 9.0
   # Multiplier on baseline protocol-deviation count at problem sites.
-  # Normal sites get ~2/site, problem sites get ~6/site.
-  protocol_deviation_multiplier: 3.0
+  # Base 2/site × 5 = 10/site at problem sites. At 13-22 subjects each, this
+  # gives >3 deviations per 10 subjects (KRI-04 threshold) reliably.
+  protocol_deviation_multiplier: 5.0
 
 # Operational expectations used to bound enrollment dates and visit windows.
 operational:
