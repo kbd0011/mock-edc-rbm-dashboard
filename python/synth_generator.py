@@ -455,15 +455,18 @@ def make_lb(subjects: pd.DataFrame, cfg: dict) -> pd.DataFrame:
 
 
 def make_protocol_deviations(subjects: pd.DataFrame, cfg: dict) -> pd.DataFrame:
-    """~2 deviations per normal site, ~6 per problem site."""
+    """~2 deviations per normal site, ~N per problem site (per multiplier)."""
     bias = cfg["site_bias"]
     rows = []
-    for site, subset in subjects.groupby("SITEID"):
+    # Iterate in deterministic site order, and sample using the seeded `random`
+    # module rather than pandas.sample() (which uses numpy's separately-seeded RNG).
+    for site in sorted(subjects["SITEID"].unique()):
+        subset = subjects[subjects["SITEID"] == site].reset_index(drop=True)
         is_problem = site in bias["problem_sites"]
         base_n = 2
         n = int(base_n * bias["protocol_deviation_multiplier"]) if is_problem else base_n
         for _ in range(n):
-            subj = subset.sample(1).iloc[0]
+            subj = subset.iloc[random.randrange(len(subset))]
             offset = random.randint(7, 350)
             rows.append({
                 "SITEID":         site,
