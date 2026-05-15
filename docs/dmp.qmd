@@ -295,7 +295,7 @@ The following artifacts are maintained alongside the DMP and constitute its anne
 | F | Edit-check specification — `metadata/edit_checks.xlsx` |
 | G | CDASH→SDTM mapping — `metadata/mapping_spec.xlsx` |
 | H | Error injection profile (for synthetic-data demo) — `metadata/error_profile.yml` |
-| I | Source code repository — `https://github.com/kab0001/mock-edc-rbm-dashboard` |
+| I | Source code repository — `https://github.com/kbd0011/mock-edc-rbm-dashboard` |
 
 # References
 

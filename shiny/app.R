@@ -71,7 +71,7 @@ ui_about <- function() {
       tags$li("CDASH → SDTM mapping: R (dplyr, metacore, xportr)"),
       tags$li("KRI compute: R")
     ),
-    p(tags$a(href = "https://github.com/kab0001/mock-edc-rbm-dashboard",
+    p(tags$a(href = "https://github.com/kbd0011/mock-edc-rbm-dashboard",
              target = "_blank", "Source code on GitHub"))
   )
 }

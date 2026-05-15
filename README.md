@@ -1,6 +1,6 @@
 # mock-edc-rbm-dashboard
 
-[![pipeline](https://github.com/kab0001/mock-edc-rbm-dashboard/actions/workflows/ci.yml/badge.svg)](https://github.com/kab0001/mock-edc-rbm-dashboard/actions/workflows/ci.yml)
+[![pipeline](https://github.com/kbd0011/mock-edc-rbm-dashboard/actions/workflows/ci.yml/badge.svg)](https://github.com/kbd0011/mock-edc-rbm-dashboard/actions/workflows/ci.yml)
 [![R 4.6.0](https://img.shields.io/badge/R-4.6.0-276DC3?logo=r&logoColor=white)](https://www.r-project.org/)
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 
