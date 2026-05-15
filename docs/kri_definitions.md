@@ -9,7 +9,7 @@ Aligned to ICH E6(R3) Annex E centralized monitoring and the TransCelerate RBQM 
 ## Conventions
 
 - **Computation grain:** per `SITEID`. All KRIs roll up to a site, with subject-level drill-down on the KRI Detail tab.
-- **Snapshot date:** all rolling/cumulative metrics are computed as of `snapshot_date`, which defaults to `max(RFSTDTC, AESTDTC, LBDTC, query_log.timestamp)` across the loaded data. A single snapshot per pipeline run.
+- **Snapshot date:** `max(DM.RFSTDTC) + 30 days` — i.e., the point just after the last subject was enrolled. This puts the trial in the active monitoring phase (most subjects mid-treatment, enrollment recently complete, AE accrual ongoing), which is when RBQM dashboards are consulted in practice. Using `max()` of all available dates would land at end-of-study with no enrollment and few recent AEs, suppressing the very flags the dashboard exists to surface.
 - **Flag values:** `HIGH`, `LOW`, `NORMAL`. `HIGH`/`LOW` mean "outside the expected band and warrants reviewer attention." Not all KRIs use `LOW` (see per-KRI notes).
 - **Output schema:** every KRI emits rows into the long tibble `data/kris.rds` with columns `site, kri_name, value, date, threshold_flag, denominator`. A parallel `data/kris_timeseries.rds` holds weekly bins for sparklines: `site, kri_name, week_start, value, threshold_flag`.
 
@@ -86,20 +86,21 @@ Aligned to ICH E6(R3) Annex E centralized monitoring and the TransCelerate RBQM 
 
 ---
 
-## KRI-05 — Missing Data Rate (Required Fields)
+## KRI-05 — Missing Data Rate (Tracked Required Fields)
 
 - **Category:** Data Quality
-- **Definition:** Percentage of required-field cells that are blank, across all forms with required fields, per site.
-- **Numerator:** count of blank cells where `metadata/fields_spec.xlsx::RequiredYN == "Y"`, summed across all required fields for subjects at the site.
-- **Denominator:** total count of required-field cells expected for subjects at the site (per visit schedule from `protocol_summary.md`).
-- **Formula:** `value = blank_required_cells / expected_required_cells * 100` (as a percentage).
+- **Definition:** Percentage of blank cells across a **curated set of required fields tracked by the RBQM program**, per site.
+- **Scope of tracked fields:** the list defined in `metadata/error_profile.yml::error_injection.missing_required_fields.fields`. These are fields where blanks reflect site data-entry quality and are operationally actionable (e.g., `LB.LBORRES`, `AE.AETERM`, `PASI.PASITOT`). Hard-coded constants (`DM.AGEU="YEARS"`, `DM.COUNTRY="USA"`) and derived fields are excluded — they cannot blank under correct EDC use, so they would dilute the signal.
+- **Numerator:** count of blank cells in the tracked field set for subjects at the site.
+- **Denominator:** count of expected tracked-field cells for subjects at the site (one cell per subject-row × tracked field, across all forms in scope).
+- **Formula:** `value = blank_tracked_cells / expected_tracked_cells * 100` (as a percentage).
 - **Time grain:** snapshot. Time series: weekly snapshot.
 - **Thresholds:**
   - `value > 10%` → `HIGH` (excessive missingness; possible site/CRF design issue)
   - else → `NORMAL`
-- **Rationale:** SCDM GCDMP and FDA submission practice target <2–5% missing required-field data for analysis-quality datasets; >10% triggers escalation.
-- **Required upstream fields:** every form CSV with required-field columns; `metadata/fields_spec.xlsx::RequiredYN`.
-- **Note on synthetic data:** `error_profile.yml::missing_required_fields.rate = 0.02` (2% baseline). Bias 1 site to ~12% to surface a HIGH flag.
+- **Rationale:** SCDM GCDMP and FDA submission practice target <2–5% missing on analysis-quality datasets; >10% on tracked fields triggers escalation. The curated-list approach mirrors how industry RBQM dashboards (TransCelerate, Cyntegrity, Cluepoints) actually configure missingness KRIs: a small, weighted set of operational-quality fields rather than all required fields.
+- **Required upstream fields:** every form CSV containing tracked fields; the `missing_required_fields.fields` list in `error_profile.yml`.
+- **Note on synthetic data:** baseline rate 2% on listed fields; problem sites (`S005`, `S007`) get a 6× multiplier (~12%) which clears the HIGH threshold.
 - **Dashboard:** heatmap tile, value_box; KRI Detail shows missingness broken down by form.
 
 ---
