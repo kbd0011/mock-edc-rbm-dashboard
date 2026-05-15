@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>AE — IMM-PSO-3001 eCRF</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+  body{background:#f4f6f8;font-family:-apple-system,"Segoe UI",sans-serif}
+  .study-bar{background:#0b3d91;color:#fff;padding:.6rem 1rem}
+  .study-bar .study-id{font-weight:600;letter-spacing:.04em}
+  .study-bar .form-name{float:right;opacity:.9}
+  .ecrf-card{max-width:880px;margin:1.5rem auto;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+  .cdash-tag{font-size:.72rem;color:#7f8c8d;margin-left:.3rem}
+  .req{color:#c0392b;font-weight:700}
+  .form-section-title{color:#0b3d91;border-bottom:1px solid #e1e6ed;padding-bottom:.3rem;margin-top:1rem}
+  .footer-actions{background:#f8f9fa;padding:.8rem 1rem;border-top:1px solid #e1e6ed}
+</style>
+</head>
+<body>
+
+<div class="study-bar">
+  <span class="study-id">IMM-PSO-3001</span>
+  <span class="form-name">Form: Adverse Events (AE)</span>
+</div>
+
+<div class="card ecrf-card">
+  <div class="card-body">
+    <h4 class="mb-3">Adverse Event</h4>
+    <p class="text-muted small">CDASH Domain: AE &middot; Visit: Continuous &middot; Sequence #14 for this subject.</p>
+
+    <div class="mb-3">
+      <label class="form-label">AE reported term <span class="req">*</span><span class="cdash-tag">[AETERM]</span></label>
+      <input type="text" class="form-control" value="Injection site reaction">
+      <div class="form-text">Verbatim from source; coded post-entry to MedDRA Preferred Term.</div>
+    </div>
+
+    <div class="row g-3">
+      <div class="col-md-6">
+        <label class="form-label">AE start date <span class="req">*</span><span class="cdash-tag">[AESTDAT]</span></label>
+        <input type="date" class="form-control" value="2025-11-12">
+      </div>
+      <div class="col-md-6">
+        <label class="form-label">AE end date<span class="cdash-tag">[AEENDAT]</span></label>
+        <input type="date" class="form-control" value="2025-11-14">
+        <div class="form-text">Leave blank if ongoing.</div>
+      </div>
+    </div>
+
+    <h6 class="form-section-title">Severity &amp; seriousness</h6>
+    <div class="row g-3">
+      <div class="col-md-6">
+        <label class="form-label">Severity <span class="req">*</span><span class="cdash-tag">[AESEV]</span></label>
+        <select class="form-select">
+          <option>MILD</option><option selected>MODERATE</option><option>SEVERE</option>
+        </select>
+      </div>
+      <div class="col-md-3">
+        <label class="form-label">Serious <span class="req">*</span><span class="cdash-tag">[AESER]</span></label>
+        <div>
+          <div class="form-check form-check-inline"><input class="form-check-input" type="radio" name="ser"><label class="form-check-label">Y</label></div>
+          <div class="form-check form-check-inline"><input class="form-check-input" type="radio" name="ser" checked><label class="form-check-label">N</label></div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <label class="form-label">Toxicity grade<span class="cdash-tag">[AETOXGR]</span></label>
+        <select class="form-select"><option></option><option>1</option><option selected>2</option><option>3</option><option>4</option><option>5</option></select>
+      </div>
+    </div>
+
+    <h6 class="form-section-title">Causality &amp; action</h6>
+    <div class="row g-3">
+      <div class="col-md-4">
+        <label class="form-label">Relationship to study drug <span class="req">*</span><span class="cdash-tag">[AEREL]</span></label>
+        <select class="form-select">
+          <option selected>RELATED</option><option>NOT RELATED</option><option>UNKNOWN</option>
+        </select>
+      </div>
+      <div class="col-md-4">
+        <label class="form-label">Action taken <span class="req">*</span><span class="cdash-tag">[AEACN]</span></label>
+        <select class="form-select">
+          <option selected>DOSE NOT CHANGED</option>
+          <option>DOSE REDUCED</option>
+          <option>DRUG INTERRUPTED</option>
+          <option>DRUG WITHDRAWN</option>
+          <option>NOT APPLICABLE</option>
+        </select>
+      </div>
+      <div class="col-md-4">
+        <label class="form-label">Outcome <span class="req">*</span><span class="cdash-tag">[AEOUT]</span></label>
+        <select class="form-select">
+          <option selected>RECOVERED/RESOLVED</option>
+          <option>RECOVERING/RESOLVING</option>
+          <option>NOT RECOVERED/NOT RESOLVED</option>
+          <option>RECOVERED/RESOLVED WITH SEQUELAE</option>
+          <option>FATAL</option><option>UNKNOWN</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="alert alert-warning small mt-3 mb-0">
+      Reminder: SAEs (AESER='Y') must be reported to the sponsor within 24 hours per protocol.
+    </div>
+  </div>
+  <div class="footer-actions text-end">
+    <button class="btn btn-outline-secondary">Save</button>
+    <button class="btn btn-primary ms-2">Save &amp; Continue</button>
+  </div>
+</div>
+</body>
+</html>

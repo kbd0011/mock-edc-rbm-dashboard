@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>PASI — IMM-PSO-3001 eCRF</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+  body{background:#f4f6f8;font-family:-apple-system,"Segoe UI",sans-serif}
+  .study-bar{background:#0b3d91;color:#fff;padding:.6rem 1rem}
+  .study-bar .study-id{font-weight:600;letter-spacing:.04em}
+  .study-bar .form-name{float:right;opacity:.9}
+  .ecrf-card{max-width:880px;margin:1.5rem auto;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+  .cdash-tag{font-size:.72rem;color:#7f8c8d;margin-left:.3rem}
+  .req{color:#c0392b;font-weight:700}
+  .form-section-title{color:#0b3d91;border-bottom:1px solid #e1e6ed;padding-bottom:.3rem;margin-top:1rem}
+  .footer-actions{background:#f8f9fa;padding:.8rem 1rem;border-top:1px solid #e1e6ed}
+  .region-card{background:#f8fafd;border:1px solid #e1e6ed;border-radius:6px;padding:.8rem;margin-bottom:.6rem}
+  .total-row{background:#0b3d91;color:#fff;padding:.8rem;border-radius:6px}
+</style>
+</head>
+<body>
+
+<div class="study-bar">
+  <span class="study-id">IMM-PSO-3001</span>
+  <span class="form-name">Form: PASI Assessment (PASI)</span>
+</div>
+
+<div class="card ecrf-card">
+  <div class="card-body">
+    <h4 class="mb-3">PASI Assessment</h4>
+    <p class="text-muted small">CDASH Domain: EFF &middot; Visit: W16 &middot; Regional scores weighted then summed.</p>
+
+    <div class="mb-3">
+      <label class="form-label">Assessment date <span class="req">*</span><span class="cdash-tag">[PASIDAT]</span></label>
+      <input type="date" class="form-control" value="2025-12-02" style="max-width:260px">
+    </div>
+
+    <h6 class="form-section-title">Regional sub-scores</h6>
+    <div class="region-card">
+      <strong>Head</strong> (weight 0.1)<span class="cdash-tag">[PASIHEAD]</span> — range 0.0 – 7.2
+      <input type="number" step="0.1" class="form-control mt-1" value="0.8" style="max-width:160px">
+    </div>
+    <div class="region-card">
+      <strong>Upper limbs</strong> (weight 0.2)<span class="cdash-tag">[PASIARMS]</span> — range 0.0 – 14.4
+      <input type="number" step="0.1" class="form-control mt-1" value="1.6" style="max-width:160px">
+    </div>
+    <div class="region-card">
+      <strong>Trunk</strong> (weight 0.3)<span class="cdash-tag">[PASITRNK]</span> — range 0.0 – 21.6
+      <input type="number" step="0.1" class="form-control mt-1" value="2.7" style="max-width:160px">
+    </div>
+    <div class="region-card">
+      <strong>Lower limbs</strong> (weight 0.4)<span class="cdash-tag">[PASILEGS]</span> — range 0.0 – 28.8
+      <input type="number" step="0.1" class="form-control mt-1" value="3.2" style="max-width:160px">
+    </div>
+
+    <div class="total-row d-flex justify-content-between align-items-center mt-2">
+      <span>PASI Total <span class="cdash-tag" style="color:#bdc3c7">[PASITOT]</span></span>
+      <span style="font-size:1.4rem;font-weight:600">8.3</span>
+    </div>
+    <div class="form-text">Computed = sum of regional sub-scores; must equal manual entry (tolerance 0.1).</div>
+
+    <h6 class="form-section-title">BSA (Body Surface Area %)</h6>
+    <div class="row g-3">
+      <div class="col-md-4">
+        <label class="form-label">Trunk<span class="cdash-tag">[PASISBT]</span></label>
+        <input type="number" class="form-control" value="6">
+      </div>
+      <div class="col-md-4">
+        <label class="form-label">Arms<span class="cdash-tag">[PASISBA]</span></label>
+        <input type="number" class="form-control" value="4">
+      </div>
+      <div class="col-md-4">
+        <label class="form-label">Legs<span class="cdash-tag">[PASISBL]</span></label>
+        <input type="number" class="form-control" value="3">
+      </div>
+    </div>
+  </div>
+  <div class="footer-actions text-end">
+    <button class="btn btn-outline-secondary">Save</button>
+    <button class="btn btn-primary ms-2">Save &amp; Continue</button>
+  </div>
+</div>
+</body>
+</html>
