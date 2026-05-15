@@ -279,4 +279,4 @@ main <- function() {
                             nrow(kris), nrow(ts)))
 }
 
-if (!interactive()) main()
+if (sys.nframe() == 0L) main()

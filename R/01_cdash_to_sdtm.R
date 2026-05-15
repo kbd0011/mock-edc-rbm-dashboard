@@ -205,4 +205,5 @@ main <- function() {
                             nrow(dm), nrow(ae), nrow(lb), PATH_SDTM))
 }
 
-if (!interactive()) main()
+# Run main() only when invoked as a script, not when sourced (e.g. from tests).
+if (sys.nframe() == 0L) main()
