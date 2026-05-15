@@ -1,0 +1,13 @@
+project:
+  type: default
+  render:
+    - "crf/annotated_crf.qmd"
+    - "docs/dmp.qmd"
+
+execute:
+  freeze: auto
+
+format:
+  pdf:
+    toc: true
+    number-sections: true
