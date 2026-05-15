@@ -42,3 +42,6 @@ data/queries/*.json
 
 # Logs
 *.log
+
+/.quarto/
+**/*.quarto_ipynb

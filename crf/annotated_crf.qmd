@@ -1,0 +1,142 @@
+---
+title: "Annotated Case Report Forms"
+subtitle: "Study IMM-PSO-3001 — Phase III Plaque Psoriasis"
+author: "Clinical Data Management"
+date: today
+format:
+  pdf:
+    toc: true
+    toc-depth: 2
+    geometry: margin=0.75in
+    fontsize: 10pt
+    colorlinks: true
+    documentclass: article
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r setup}
+library(openxlsx)
+library(here)
+library(dplyr)
+library(flextable)
+library(knitr)
+
+fields <- read.xlsx(here("metadata", "fields_spec.xlsx"))
+forms  <- read.xlsx(here("metadata", "forms_spec.xlsx"))
+
+render_form <- function(form_id) {
+  form <- forms %>% filter(FormID == form_id)
+  fl <- fields %>% filter(FormID == form_id) %>%
+    arrange(FieldOrder) %>%
+    transmute(
+      Order     = FieldOrder,
+      Label     = FieldLabel,
+      CDASH     = CDASH_Variable,
+      Type      = paste0(DataType, " (", Length, ")"),
+      Codelist  = ifelse(is.na(Codelist) | Codelist == "NA", "—", Codelist),
+      Required  = RequiredYN,
+      `SDTM Var.` = SDTM_Variable
+    )
+
+  cat(sprintf("\n## Form %s — %s\n\n", form$FormShortName, form$FormName))
+  cat(sprintf("**CDASH Domain:** %s\n\n", form$CDASH_Domain))
+  cat(sprintf("**Visit Schedule:** %s\n\n", form$VisitSchedule))
+  cat(sprintf("**Required for study:** %s\n\n", form$RequiredYN))
+  cat(sprintf("**Notes:** %s\n\n", form$Comments))
+
+  ft <- flextable(fl) %>%
+    autofit() %>%
+    theme_vanilla() %>%
+    fontsize(size = 8, part = "all") %>%
+    bg(part = "header", bg = "#0b3d91") %>%
+    color(part = "header", color = "#ffffff") %>%
+    align(j = c("Order", "Required"), align = "center", part = "all")
+  flextable_to_rmd(ft)
+}
+```
+
+# Introduction
+
+This document presents the annotated Case Report Forms (CRFs) for Study IMM-PSO-3001. Each form lists every captured field with:
+
+- **Label** — what the site sees on screen
+- **CDASH variable** — the CDISC CDASHIG 2.2 short name
+- **Type / length** — the EDC field definition
+- **Codelist** — controlled vocabulary (where applicable)
+- **Required** — whether the field must be completed before save
+- **SDTM variable** — the corresponding SDTMIG 3.3 target variable (per `metadata/mapping_spec.xlsx`)
+
+The annotated CRF is the canonical artifact for downstream stakeholders (statistical programming, biostatistics, regulatory) to understand what data is collected, how it is structured, and how it maps into submission datasets.
+
+Per the Data Management Plan, this document is reviewed and signed off prior to UAT and again before database lock.
+
+# Form catalogue
+
+```{r catalogue}
+forms %>%
+  select(`Form ID` = FormID,
+         `Short` = FormShortName,
+         `Name` = FormName,
+         `CDASH Domain` = CDASH_Domain,
+         `Required` = RequiredYN,
+         `Visit Schedule` = VisitSchedule) %>%
+  flextable() %>%
+  autofit() %>%
+  theme_vanilla() %>%
+  fontsize(size = 9, part = "all") %>%
+  bg(part = "header", bg = "#0b3d91") %>%
+  color(part = "header", color = "#ffffff")
+```
+
+\newpage
+
+```{r dm-form, results='asis'}
+render_form("F-DM")
+```
+
+\newpage
+
+```{r ie-form, results='asis'}
+render_form("F-IE")
+```
+
+\newpage
+
+```{r ae-form, results='asis'}
+render_form("F-AE")
+```
+
+\newpage
+
+```{r cm-form, results='asis'}
+render_form("F-CM")
+```
+
+\newpage
+
+```{r pasi-form, results='asis'}
+render_form("F-PASI")
+```
+
+\newpage
+
+```{r lb-form, results='asis'}
+render_form("F-LB")
+```
+
+\newpage
+
+# Completion notes
+
+General guidance for all sites:
+
+- All dates must be entered in ISO 8601 format (`YYYY-MM-DD`). Partial dates are not accepted in this study.
+- Subject IDs follow the pattern `S###-####`. The first three digits identify the site (`S001`–`S008`); the four-digit suffix increments within the site.
+- All required fields fire an Error-severity edit check when blank (see `metadata/edit_checks.xlsx`).
+- For controlled-vocabulary fields, only values from the codelist are accepted. Free-text entries are reserved for verbatim AE and CM terms and are coded post-entry (MedDRA / WHO-DD respectively).
+- The full edit-check specification is reviewed at UAT and re-reviewed before database lock.
+
+For per-form completion details, see `docs/crf_completion_guide.md`.
