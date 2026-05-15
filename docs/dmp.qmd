@@ -1,0 +1,310 @@
+---
+title: "Data Management Plan"
+subtitle: "Study IMM-PSO-3001 — Multicenter Phase III Plaque Psoriasis Trial"
+author: "Clinical Data Management"
+date: today
+version: "1.0"
+format:
+  pdf:
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    geometry: margin=1in
+    fontsize: 11pt
+    colorlinks: true
+execute:
+  echo: false
+  warning: false
+---
+
+> **Document control.** This is a fictional Data Management Plan authored for the `mock-edc-rbm-dashboard` portfolio project. It mirrors the structure and language of real DMPs authored per SCDM Good Clinical Data Management Practice (GCDMP) and the TransCelerate eClinical authoring framework. It is not intended for use in any actual clinical investigation.
+
+# Introduction
+
+## Purpose
+
+This Data Management Plan (DMP) describes the data-management strategy, procedures, and quality controls for Study **IMM-PSO-3001**, a multicenter, randomized, double-blind, placebo-controlled Phase III study of an investigational IL-23 inhibitor (IP-301) in adults with moderate-to-severe plaque psoriasis. The DMP supports the protocol, statistical analysis plan, and regulatory submission, and is the canonical reference for all activities related to the collection, cleaning, transformation, and lock of clinical data.
+
+## Scope
+
+This DMP covers:
+
+- Database design and electronic Case Report Form (eCRF) specification
+- Edit-check specification and execution
+- Data entry, query management, and Source Document Verification (SDV)
+- Risk-Based Quality Management (RBQM) and centralized monitoring
+- External data reconciliation (central lab)
+- Medical coding (MedDRA for AE; WHO Drug Dictionary for CM)
+- Database lock procedures and archiving
+- Audit trail and 21 CFR Part 11 compliance considerations
+
+This DMP does not cover regulatory submission preparation (covered by the eSubmission Plan), data analysis (covered by the SAP), or pharmacovigilance/safety database operations (covered by the Safety Management Plan).
+
+## Authority and Review
+
+This document is owned by the Clinical Data Manager (CDM) for IMM-PSO-3001. Material changes to the DMP require sign-off from the Lead Statistician, Medical Monitor, and Sponsor Data Management Lead, captured in the change history table maintained on the document's cover.
+
+# Roles and Responsibilities
+
+| Role | Responsibilities |
+|---|---|
+| **Clinical Data Manager (CDM)** | Owns the DMP; defines and maintains the eCRF and edit-check specifications; oversees data cleaning; signs off on database lock. |
+| **Database Administrator (DBA)** | Implements the eCRF design in the EDC platform; configures user roles, edit checks, and audit trail; supports UAT. |
+| **Clinical Research Associate (CRA)** | Performs source data verification at site visits per the risk-based monitoring plan. |
+| **Site Investigator and Coordinator** | Enters clinical data into the EDC; resolves queries; ensures source documents are available and current. |
+| **Sponsor Data Management Lead** | Approves DMP, eCRF, and database lock; reviews RBQM dashboards monthly. |
+| **Lead Statistician** | Reviews and approves the eCRF and edit-check specs; confirms readiness for database lock. |
+| **Medical Coder** | Codes AE verbatim terms to MedDRA Preferred Terms; codes CM to WHO-DD. |
+| **External Data Vendor (Central Lab)** | Provides lab results as CSV extracts on a monthly cadence; supports reconciliation. |
+| **Independent DSMB** | Reviews unblinded safety data at scheduled milestones. |
+
+# Study Overview
+
+## Reference
+
+Full protocol details are available in `docs/protocol_summary.md`. Summary specific to data management:
+
+| Element | Specification |
+|---|---|
+| Study ID | IMM-PSO-3001 |
+| Phase | III |
+| Indication | Moderate-to-severe plaque psoriasis |
+| Design | Randomized 2:1 (IP-301 : placebo), double-blind, 52-week |
+| Target N | 150 subjects across 8 US sites |
+| Primary endpoint | PASI 90 response at Week 16 |
+| Recruitment window | 18 months |
+| Database lock target | 8 weeks after last subject EOS visit |
+
+# Database Design
+
+## Electronic Case Report Form (eCRF)
+
+The eCRF is designed in alignment with CDISC **CDASHIG version 2.2**. Six forms are implemented:
+
+| Form ID | Name | CDASH Domain | Required | Visits |
+|---|---|---|---|---|
+| F-DM   | Demographics | DM | Y | Screening |
+| F-IE   | Inclusion/Exclusion | IE | Y | Screening |
+| F-AE   | Adverse Events | AE | N (continuous, per occurrence) | All post-baseline |
+| F-CM   | Concomitant Medications | CM | N (per occurrence) | All |
+| F-PASI | PASI Assessment | EFF (custom) | Y | Scr, BL, W4, W8, W12, W16, W24, W36, W52 |
+| F-LB   | Laboratory Results | LB | Y | Scr, BL, W4, W12, W24, W52 |
+
+Full field-level specifications — including label, CDASH variable name, data type, length, codelist, required flag, control type, help text, and target SDTM variable — are maintained in `metadata/fields_spec.xlsx` and rendered as a stakeholder-readable annotated CRF PDF (`crf/annotated_crf.pdf`).
+
+## Forms / fields summary
+
+49 fields are collected across the six forms: 8 DM, 4 IE, 12 AE, 8 CM, 9 PASI, 8 LB. Field naming follows CDASHIG 2.2 short names so downstream SDTM mapping is direct.
+
+## Reference materials
+
+- `metadata/forms_spec.xlsx` — form-level metadata
+- `metadata/fields_spec.xlsx` — field-level metadata, including CDASH→SDTM mapping pointers
+- `metadata/mapping_spec.xlsx` — full CDASH→SDTM variable mapping for DM, AE, LB
+
+# Data Collection
+
+## Primary capture: eCRF
+
+All clinical data are captured directly into the EDC system via the eCRF by site staff. Static visual mockups of each form (Bootstrap-styled HTML, screenshot-ready) are available in `crf/mockups/`. The annotated CRF PDF (`crf/annotated_crf.pdf`) is the canonical reference for stakeholders.
+
+## Direct-from-EHR and DCT
+
+Lab results are received from the central lab as monthly CSV extracts (Section 10) rather than transcribed at sites. This eliminates a transcription error class and is the only "Direct Data Transfer" (DCT) source on this study.
+
+## Paper backup
+
+Sites are permitted to use paper backup forms during EDC outages of >24 hours. Site staff must transcribe paper entries into the EDC within 48 hours of system restoration. Paper backup forms must be retained as source documents.
+
+# Edit Check Specifications
+
+## Specification
+
+The edit-check specification is maintained in `metadata/edit_checks.xlsx` and contains **35 checks** distributed as follows:
+
+| Category | Count | Examples |
+|---|---|---|
+| Required | 7 | "DM.SUBJID required"; "AE.AESTDAT required" |
+| Range | 9 | "DM.AGE 18-75"; "PASI.PASITOT 0-72"; conditional ranges by LBTESTCD |
+| Format | 5 | "DM.SUBJID matches `^S\\d{3}-\\d{4}$`"; ISO 8601 date formats |
+| Cross-form temporal | 6 | "AE.AESTDAT ≥ EX.EXSTDT for treatment-emergent" |
+| Cross-form consistency | 6 | "If AE.AESER='Y' then AE.AESEV in (MODERATE,SEVERE)" |
+| Plausibility | 2 | "LB ALT ≤ 500"; "LB CREAT ≤ 10" |
+
+Each check carries: `CheckID`, `CheckCategory`, target `Form` and `Field(s)`, parseable `Logic`, `Severity` (Error / Warning / Notice), `QueryText` (the message a site sees), and `SAS_Equivalent_Pseudocode` for downstream programming.
+
+## Execution
+
+Edit checks fire automatically at point of entry by the EDC platform. Additionally, the standalone edit-check engine implemented in `python/edit_checks/runner.py` produces a query log CSV (`data/queries/query_log.csv`) for centralized review and dashboarding. The engine reads the same specification (`metadata/edit_checks.xlsx`) used by the EDC, ensuring no drift between EDC behavior and central review.
+
+## UAT
+
+Each edit check is exercised against known-violating test data during User Acceptance Testing prior to first patient in. Pass/fail evidence is captured in `tests/test-edit-checks.py` and re-run in CI on every change to the spec.
+
+# Data Entry and Source Document Verification
+
+## Data entry
+
+Site staff enter data into the EDC within **2 business days** of the source event (visit, AE awareness, lab receipt). The EDC enforces a complete-and-correct save model: required fields cannot be left blank, and edit-check Errors block save until resolved.
+
+## Source Document Verification
+
+SDV is performed risk-based, **not 100% verbatim**. The SDV strategy:
+
+- **Critical data**: 100% SDV. Includes primary endpoint (PASI at W16), eligibility criteria (IE form), informed consent dates, IP accountability.
+- **Standard data**: targeted SDV (≥30% per subject) sampled risk-based using site KRIs (Section 9) and central monitoring signals.
+- **Low-risk data**: minimal SDV, monitored centrally.
+
+SDV findings are reported via CRA monitoring visit reports and reflected in protocol-deviation records where applicable.
+
+# Data Cleaning and Query Management
+
+## Workflow
+
+1. Edit-check fires at entry; site resolves immediately when possible.
+2. Open queries collected in the EDC query log are reviewed by the CDM weekly.
+3. Cross-form/centralized checks not implementable at the EDC level are run on the central edit-check engine after each weekly data extract, with queries added back to the EDC.
+4. Query response target: site responds within **5 business days** of query open.
+5. Quality control: 100% review of all medically meaningful changes (AE term, severity, seriousness, outcome, IE response, primary endpoint values) by the CDM.
+
+## Query lifecycle
+
+`Open → Site response → CDM review → Close (or Re-open)`. Queries are not auto-closed; CDM review is required for closure.
+
+# Risk-Based Quality Management
+
+## Framework
+
+Centralized risk-based quality monitoring follows **ICH E6(R3) Annex E** guidance and the **TransCelerate RBQM** framework. The strategy is operationalized through:
+
+- A pre-specified set of six Key Risk Indicators (KRIs), Section 9.2
+- A central monitoring dashboard (`shiny/app.R`) consumed weekly by the Sponsor Data Management Lead, monthly by the Medical Monitor, and ad-hoc by Clinical Operations
+- Threshold-based site flagging that triggers a defined escalation pathway (CRA visit, root cause analysis, corrective action plan)
+
+## KRI catalogue
+
+| # | KRI | Threshold (HIGH) | Source |
+|---|---|---|---|
+| 1 | Enrollment rate (subj/site/month, rolling 90d) | <0.5 (LOW) or >2.0 (HIGH) | DM.RFSTDTC |
+| 2 | Query rate (open queries / subject / site) | >5.0 | Edit-check query log |
+| 3 | AE reporting latency (median days, rolling 90d) | >5d | AE.AESTDAT, AE_ENTRY_DTC |
+| 4 | Protocol deviation rate (per 10 subjects) | >3 | Protocol deviation log |
+| 5 | Missing data rate (tracked required fields, %) | >10% | All forms; tracked field set |
+| 6 | Lab out-of-range rate (info-only) | n/a | LB |
+
+Full definitions, formulas, denominators, and operational notes are in `docs/kri_definitions.md`. The dashboard provides snapshot summary, site bar charts, weekly time-series sparklines, and subject-level drill-down for each KRI.
+
+## Escalation pathway
+
+A site flagged HIGH on any quality KRI for two consecutive weekly snapshots triggers a CRA site visit within 10 business days. Three consecutive weeks of HIGH triggers a written root-cause investigation by the site PI and a corrective-action plan signed by the sponsor.
+
+# External Data Reconciliation
+
+## Central lab
+
+Lab results are delivered by Central Lab Services Inc. as a monthly CSV extract aligned to the LB form schema. Reconciliation procedure:
+
+1. CDM imports the monthly extract via `python/synth_generator.py` (in this mock; in production, the actual vendor pipe).
+2. Reconciliation script joins on `USUBJID` and visit, flagging:
+   - Records present in EDC but missing in central lab
+   - Records present in central lab but not in EDC
+   - Value discrepancies on numerical results
+3. Discrepancies trigger queries to the central lab and/or the site.
+
+## IxRS / randomization
+
+Randomization is performed by an external IxRS. Treatment assignments are received daily; reconciliation against EDC EX records is automated weekly.
+
+# Coding
+
+## Adverse events
+
+Verbatim AE terms from `AE.AETERM` are coded to MedDRA Preferred Terms (PTs) and System Organ Classes (SOCs) by the Medical Coder. The MedDRA dictionary version used for this study is the version current at first patient in (frozen for the study duration). A static lookup table mirroring the coding decisions is maintained in `R/01_cdash_to_sdtm.R` for downstream SDTM mapping.
+
+## Concomitant medications
+
+Verbatim CM terms from `CM.CMTRT` are coded to the WHO Drug Dictionary (WHO-DD), using the dictionary version current at first patient in (frozen for the study duration).
+
+# Medical Coding QC
+
+- 100% of AE and CM coding decisions are reviewed by a second Medical Coder.
+- Discrepancies are resolved by the Lead Medical Coder; resolution rationale is logged.
+- Coding QC review is performed weekly during active recruitment and monthly thereafter.
+- A coding QC report (counts of agreement, disagreement, resolution time) is produced before each DSMB review.
+
+# Database Lock Procedures
+
+## Pre-lock checklist
+
+Database lock requires the following to be true, attested by the named role:
+
+| Item | Owner |
+|---|---|
+| All subjects have completed EOS or are accounted for as early termination | CDM |
+| All open queries are closed or accepted with sponsor approval | CDM |
+| All critical-data SDV is complete | CRA Lead |
+| All AE coding QC is complete | Lead Medical Coder |
+| Central lab reconciliation is closed | CDM |
+| IxRS reconciliation is closed | CDM |
+| SAP is finalized and signed | Lead Statistician |
+| RBQM KRIs are reviewed; no unresolved HIGH-flag sites | Sponsor DM Lead |
+| Final SDTM datasets pass Pinnacle 21 validation with no Errors | Statistical Programmer |
+
+## Lock sequence
+
+1. **Soft lock**: EDC put in read-only state; final central edit-check run; SDTM datasets generated and Pinnacle 21 validated.
+2. **Sign-off**: Lock checklist completed; CDM, Statistics, Medical, and Sponsor sign off.
+3. **Hard lock**: EDC database is locked; lock event captured in the audit trail. SDTM and ADaM packages frozen.
+4. **Distribution**: Locked datasets distributed to Statistical Programming for ADaM/TLF production.
+
+# Archiving
+
+Per 21 CFR 312 and EU GCP requirements:
+
+- The locked clinical database is archived for a minimum of **15 years** after database lock or the last marketing authorization for the indication, whichever is later.
+- All paper source documents and electronic source data are archived under sponsor-controlled access.
+- The eCRF, DMP, SAP, edit-check spec, query log, and CDASH→SDTM mapping spec are archived with the locked database.
+
+# Audit Trail and 21 CFR Part 11
+
+## Audit trail
+
+The EDC system maintains a complete, computer-generated, time-stamped audit trail of all data entries, modifications, and deletions per **21 CFR Part 11 §11.10(e)**. The audit trail captures user, action, before-value, after-value, and reason (where required). Audit trail data is included in the archived dataset.
+
+## Electronic signatures
+
+All electronic signatures conform to 21 CFR Part 11 §11.50 and §11.70: each signature is uniquely linked to the user, includes the date/time and meaning of the signature, and is linked to the signed record such that the link cannot be excised, copied, or transferred.
+
+## Access control
+
+- Role-based access (CDM, DBA, CRA, Investigator, Coordinator, Auditor, Read-Only Sponsor)
+- Strong authentication (password + multi-factor) per site SOP
+- Periodic access reviews quarterly
+
+# Appendices
+
+The following artifacts are maintained alongside the DMP and constitute its annexes:
+
+| Appendix | Document |
+|---|---|
+| A | Protocol summary — `docs/protocol_summary.md` |
+| B | KRI definitions — `docs/kri_definitions.md` |
+| C | Annotated CRF — `crf/annotated_crf.pdf` |
+| D | Forms specification — `metadata/forms_spec.xlsx` |
+| E | Fields specification — `metadata/fields_spec.xlsx` |
+| F | Edit-check specification — `metadata/edit_checks.xlsx` |
+| G | CDASH→SDTM mapping — `metadata/mapping_spec.xlsx` |
+| H | Error injection profile (for synthetic-data demo) — `metadata/error_profile.yml` |
+| I | Source code repository — `https://github.com/kab0001/mock-edc-rbm-dashboard` |
+
+# References
+
+- ICH E6(R3) — Good Clinical Practice, Annex E (Centralized Monitoring)
+- ICH E2A — Clinical Safety Data Management
+- ICH E9(R1) — Statistical Principles
+- 21 CFR Part 11 — Electronic Records; Electronic Signatures
+- CDISC CDASHIG v2.2 and SDTMIG v3.3
+- SCDM Good Clinical Data Management Practice (GCDMP), current edition
+- TransCelerate RBQM Framework
+
+*End of document.*
