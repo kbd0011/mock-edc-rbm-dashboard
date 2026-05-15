@@ -37,7 +37,15 @@ app:
 	Rscript -e "shiny::runApp('shiny')"
 
 deploy:
-	Rscript -e "rsconnect::deployApp('shiny', appName='mock-edc-rbm-dashboard')"
+	# Stage data + synthetic into shiny/ so the deployed bundle is self-contained.
+	mkdir -p shiny/data/sdtm shiny/data/queries shiny/synthetic/raw
+	cp data/kris.rds data/kris_timeseries.rds shiny/data/
+	cp data/sdtm/*.rds shiny/data/sdtm/
+	cp data/queries/query_log.csv shiny/data/queries/
+	cp synthetic/raw/*.csv shiny/synthetic/raw/
+	Rscript -e "rsconnect::deployApp('shiny', appName='mock-edc-rbm-dashboard', forceUpdate=TRUE)"
+	# Cleanup staged copies
+	rm -rf shiny/data shiny/synthetic
 
 test:
 	$(PYTHON) -m pytest tests/

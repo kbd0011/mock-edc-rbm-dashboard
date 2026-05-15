@@ -69,7 +69,7 @@ server_kri_detail <- function(input, output, session, state, KRI_META) {
         filter(site == !!site) %>%
         select(subjid, form, field, check_id, severity, message),
       ae_latency_days = {
-        ae_raw <- readr::read_csv(here::here("synthetic", "raw", "ae.csv"),
+        ae_raw <- readr::read_csv(file.path(ROOT, "synthetic", "raw", "ae.csv"),
                                   show_col_types = FALSE)
         ae_raw %>%
           filter(SITEID == site) %>%
@@ -78,7 +78,7 @@ server_kri_detail <- function(input, output, session, state, KRI_META) {
           arrange(desc(lag_days))
       },
       protocol_deviation_rate = {
-        pdev <- readr::read_csv(here::here("synthetic", "raw", "protocol_deviations.csv"),
+        pdev <- readr::read_csv(file.path(ROOT, "synthetic", "raw", "protocol_deviations.csv"),
                                 show_col_types = FALSE)
         pdev %>% filter(SITEID == site)
       },

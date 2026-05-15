@@ -16,25 +16,36 @@ suppressPackageStartupMessages({
 
 # ---- Module sources ----------------------------------------------------
 
-source(here("shiny", "R", "ui_overview.R"))
-source(here("shiny", "R", "ui_kri_detail.R"))
-source(here("shiny", "R", "ui_query_log.R"))
-source(here("shiny", "R", "server_overview.R"))
-source(here("shiny", "R", "server_kri_detail.R"))
-source(here("shiny", "R", "server_query_log.R"))
+source("R/ui_overview.R")
+source("R/ui_kri_detail.R")
+source("R/ui_query_log.R")
+source("R/server_overview.R")
+source("R/server_kri_detail.R")
+source("R/server_query_log.R")
 
 
 # ---- Data load (once at startup) ---------------------------------------
 
+# Locate the directory that holds data/ and synthetic/. Locally the app runs
+# from shiny/ so the data lives at ../data; on shinyapps.io we stage data
+# into shiny/data before deploy so it lives at ./data. Try both.
+.find_root <- function() {
+  for (cand in c(".", "..")) {
+    if (file.exists(file.path(cand, "data", "kris.rds"))) return(cand)
+  }
+  stop("Cannot locate data/ directory from working dir: ", getwd())
+}
+ROOT <- .find_root()
+
 load_data <- function() {
   list(
-    kris      = readRDS(here("data", "kris.rds")),
-    kris_ts   = readRDS(here("data", "kris_timeseries.rds")),
-    queries   = readr::read_csv(here("data", "queries", "query_log.csv"),
+    kris      = readRDS(file.path(ROOT, "data", "kris.rds")),
+    kris_ts   = readRDS(file.path(ROOT, "data", "kris_timeseries.rds")),
+    queries   = readr::read_csv(file.path(ROOT, "data", "queries", "query_log.csv"),
                                 show_col_types = FALSE),
-    dm        = readRDS(here("data", "sdtm", "dm.rds")),
-    ae        = readRDS(here("data", "sdtm", "ae.rds")),
-    lb        = readRDS(here("data", "sdtm", "lb.rds"))
+    dm        = readRDS(file.path(ROOT, "data", "sdtm", "dm.rds")),
+    ae        = readRDS(file.path(ROOT, "data", "sdtm", "ae.rds")),
+    lb        = readRDS(file.path(ROOT, "data", "sdtm", "lb.rds"))
   )
 }
 
