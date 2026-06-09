@@ -6,25 +6,21 @@
 
 Mock end-to-end EDC + Risk-Based Monitoring (RBQM) dashboard for a fictional Phase III plaque psoriasis trial (IMM-PSO-3001). CDASHIG 2.2 → SDTMIG 3.3, ICH E6(R3) Annex E + TransCelerate RBQM.
 
-> **Live demo:** _link will go here after deploy to shinyapps.io._ Free tier sleeps after 25 active hours/month, so the link may need a 30-second cold start.
+> **Live demo:** not yet deployed to shinyapps.io - the screenshots below are from the app running locally.
 
 ![KRI heatmap](docs/img/hero_heatmap.png)
 *Site × KRI heatmap from the Overview tab. Tile color = threshold flag (red HIGH, yellow NORMAL, green LOW).*
 
-## Resume bullet
-
-> **Mock EDC + Risk-Based Monitoring Dashboard (Python, R Shiny, CDASH 2.2, ICH E6(R3))** — Designed a CDASHIG 2.2-aligned eCRF with 6 forms and 35 edit checks for a fictional Phase III immunology trial; built a synthetic-data ingestion pipeline producing 548 queries across 8 sites and a deployed Shiny dashboard with 6 RBQM Key Risk Indicators per ICH E6(R3) Annex E + TransCelerate; mapped CDASH→SDTM for DM/AE/LB; 44 pytest/testthat cases cover the engine end-to-end.
-
 ## What this demonstrates
 
-- **CDASHIG 2.2-aligned eCRF** — 6 forms (DM, IE, AE, CM, PASI, LB), 49 fields, all CDISC-named, in `metadata/fields_spec.xlsx`
+- **CDASHIG 2.2-aligned eCRF** - 6 forms (DM, IE, AE, CM, PASI, LB), 49 fields, all CDISC-named, in `metadata/fields_spec.xlsx`
 - **35 edit checks across 6 categories** (Required / Range / Format / Cross-form temporal / Cross-form consistency / Plausibility) in `metadata/edit_checks.xlsx`
 - **Declarative Python edit-check engine** that reads the spec, runs synthetic data, and emits a 548-row query log with summary JSON
 - **CDASH → SDTM mapping** for DM, AE, LB using R (`metacore`, `xportr`); outputs `.rds` and `.xpt`
-- **6 RBQM Key Risk Indicators** per ICH E6(R3) Annex E + TransCelerate framework: enrollment rate, query rate, AE reporting latency, protocol deviation rate, missing data rate, lab out-of-range rate — all with weekly time-series for sparklines
-- **R Shiny dashboard** with Overview heatmap, KRI Detail drill-down, filterable Query Log, About; deployed to shinyapps.io
-- **Data Management Plan** (`docs/dmp.qmd`) — 12-page Quarto-rendered PDF following SCDM GCDMP structure
-- **Annotated CRF PDF** (`crf/annotated_crf.qmd`) — stakeholder-readable form spec with CDASH variable annotations
+- **6 RBQM Key Risk Indicators** per ICH E6(R3) Annex E + TransCelerate framework: enrollment rate, query rate, AE reporting latency, protocol deviation rate, missing data rate, lab out-of-range rate - all with weekly time-series for sparklines
+- **R Shiny dashboard** with Overview heatmap, KRI Detail drill-down, filterable Query Log, About; runs locally
+- **Data Management Plan** (`docs/dmp.qmd`) - 12-page Quarto-rendered PDF following SCDM GCDMP structure
+- **Annotated CRF PDF** (`crf/annotated_crf.qmd`) - stakeholder-readable form spec with CDASH variable annotations
 - **6 static HTML eCRF mockups** showing the per-form data entry experience (`crf/mockups/`)
 - **Reproducibility**: pinned renv lockfile (68 R packages), pinned Python requirements, GitHub Actions pipeline that rebuilds everything end-to-end on every push
 
@@ -32,16 +28,16 @@ Mock end-to-end EDC + Risk-Based Monitoring (RBQM) dashboard for a fictional Pha
 
 |  |  |
 |---|---|
-| ![Overview](docs/img/tour_overview.png) | **Overview** — site × KRI heatmap plus per-KRI HIGH-flag counts |
-| ![KRI Detail](docs/img/tour_kri_detail.png) | **KRI Detail** — bar across sites, weekly time series, subject-level drill-down |
-| ![Query Log](docs/img/tour_query_log.png) | **Query Log** — filterable by site / form / severity / status; CSV download |
-| ![eCRF Mockup](docs/img/tour_ecrf.png) | **eCRF mockups** — Bootstrap-styled static screens, screenshot-ready |
+| ![Overview](docs/img/tour_overview.png) | **Overview** - site × KRI heatmap plus per-KRI HIGH-flag counts |
+| ![KRI Detail](docs/img/tour_kri_detail.png) | **KRI Detail** - bar across sites, weekly time series, subject-level drill-down |
+| ![Query Log](docs/img/tour_query_log.png) | **Query Log** - filterable by site / form / severity / status; CSV download |
+| ![eCRF Mockup](docs/img/tour_ecrf.png) | **eCRF mockups** - Bootstrap-styled static screens, screenshot-ready |
 
 ## Stack
 
 | Layer | Technology |
 |---|---|
-| Synthetic data | Python 3.12 (`pandas`, `faker`, `click`, `pyyaml`) — seeded, deterministic |
+| Synthetic data | Python 3.12 (`pandas`, `faker`, `click`, `pyyaml`) - seeded, deterministic |
 | Edit-check engine | Python (declarative, YAML/Excel-driven; registry-pattern handlers) |
 | CDASH→SDTM mapping | R (`dplyr`, `metacore`, `metatools`, `xportr`) |
 | KRI computation | R |
@@ -90,7 +86,7 @@ Mock end-to-end EDC + Risk-Based Monitoring (RBQM) dashboard for a fictional Pha
 
 ## Run locally
 
-Requirements: Python 3.12+, R 4.6.0, Quarto 1.6+, TinyTeX (or another LaTeX). On macOS, R packages compile from source — give the first install ~10 minutes.
+Requirements: Python 3.12+, R 4.6.0, Quarto 1.6+, TinyTeX (or another LaTeX). On macOS, R packages compile from source - give the first install ~10 minutes.
 
 ```bash
 # 1. Bootstrap envs (one-time)
@@ -111,13 +107,13 @@ Pipeline order (per the Makefile): `metadata` → `synth` → `checks` → `sdtm
 
 ## Standards & references
 
-- **CDISC CDASHIG v2.2** — eCRF field naming
-- **CDISC SDTMIG v3.3** — downstream mapping target
-- **ICH E6(R3)** Annex E — Centralized monitoring
-- **ICH E2A** — AE/SAE definitions and reporting timelines
-- **SCDM** — Good Clinical Data Management Practice (GCDMP)
-- **TransCelerate RBQM Framework** — KRI catalogue and thresholds
-- **21 CFR Part 11** — Audit trail, electronic signatures, access control
+- **CDISC CDASHIG v2.2** - eCRF field naming
+- **CDISC SDTMIG v3.3** - downstream mapping target
+- **ICH E6(R3)** Annex E - Centralized monitoring
+- **ICH E2A** - AE/SAE definitions and reporting timelines
+- **SCDM** - Good Clinical Data Management Practice (GCDMP)
+- **TransCelerate RBQM Framework** - KRI catalogue and thresholds
+- **21 CFR Part 11** - Audit trail, electronic signatures, access control
 
 ## Notes on the demo
 
